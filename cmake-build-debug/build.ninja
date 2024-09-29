@@ -151,6 +151,18 @@ build CMakeFiles/oj.dir/leetcode/hot100/hot100_101.cpp.obj: CXX_COMPILER__oj_uns
   OBJECT_DIR = CMakeFiles\oj.dir
   OBJECT_FILE_DIR = CMakeFiles\oj.dir\leetcode\hot100
 
+build CMakeFiles/oj.dir/leetcode/hot100/hot100_543.cpp.obj: CXX_COMPILER__oj_unscanned_Debug D$:/CppProjects/oj/leetcode/hot100/hot100_543.cpp || cmake_object_order_depends_target_oj
+  DEP_FILE = CMakeFiles\oj.dir\leetcode\hot100\hot100_543.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\oj.dir
+  OBJECT_FILE_DIR = CMakeFiles\oj.dir\leetcode\hot100
+
+build CMakeFiles/oj.dir/leetcode/hot100/hot100_108.cpp.obj: CXX_COMPILER__oj_unscanned_Debug D$:/CppProjects/oj/leetcode/hot100/hot100_108.cpp || cmake_object_order_depends_target_oj
+  DEP_FILE = CMakeFiles\oj.dir\leetcode\hot100\hot100_108.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\oj.dir
+  OBJECT_FILE_DIR = CMakeFiles\oj.dir\leetcode\hot100
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target oj
@@ -159,7 +171,7 @@ build CMakeFiles/oj.dir/leetcode/hot100/hot100_101.cpp.obj: CXX_COMPILER__oj_uns
 #############################################
 # Link the executable oj.exe
 
-build oj.exe: CXX_EXECUTABLE_LINKER__oj_Debug CMakeFiles/oj.dir/leetcode/hot100/hot100_1.cpp.obj CMakeFiles/oj.dir/leetcode/hot100/hot100_238.cpp.obj CMakeFiles/oj.dir/leetcode/202_happy_number.cpp.obj CMakeFiles/oj.dir/leetcode/26_removeDuplicates.cpp.obj CMakeFiles/oj.dir/leetcode/hot100/hot100_160.cpp.obj CMakeFiles/oj.dir/leetcode/hot100/hot100_206.cpp.obj CMakeFiles/oj.dir/leetcode/hot100/hot100_234.cpp.obj CMakeFiles/oj.dir/leetcode/hot100/hot100_141.cpp.obj CMakeFiles/oj.dir/leetcode/hot100/hot100_21.cpp.obj CMakeFiles/oj.dir/leetcode/hot100/hot100_35.cpp.obj CMakeFiles/oj.dir/leetcode/69_Sqrt_x.cpp.obj CMakeFiles/oj.dir/leetcode/hot100/hot100_20.cpp.obj CMakeFiles/oj.dir/leetcode/496_nextGreaterElement.cpp.obj CMakeFiles/oj.dir/leetcode/hot100/hot100_94.cpp.obj CMakeFiles/oj.dir/leetcode/hot100/hot100_104.cpp.obj CMakeFiles/oj.dir/leetcode/hot100/hot100_226.cpp.obj CMakeFiles/oj.dir/leetcode/hot100/hot100_101.cpp.obj
+build oj.exe: CXX_EXECUTABLE_LINKER__oj_Debug CMakeFiles/oj.dir/leetcode/hot100/hot100_1.cpp.obj CMakeFiles/oj.dir/leetcode/hot100/hot100_238.cpp.obj CMakeFiles/oj.dir/leetcode/202_happy_number.cpp.obj CMakeFiles/oj.dir/leetcode/26_removeDuplicates.cpp.obj CMakeFiles/oj.dir/leetcode/hot100/hot100_160.cpp.obj CMakeFiles/oj.dir/leetcode/hot100/hot100_206.cpp.obj CMakeFiles/oj.dir/leetcode/hot100/hot100_234.cpp.obj CMakeFiles/oj.dir/leetcode/hot100/hot100_141.cpp.obj CMakeFiles/oj.dir/leetcode/hot100/hot100_21.cpp.obj CMakeFiles/oj.dir/leetcode/hot100/hot100_35.cpp.obj CMakeFiles/oj.dir/leetcode/69_Sqrt_x.cpp.obj CMakeFiles/oj.dir/leetcode/hot100/hot100_20.cpp.obj CMakeFiles/oj.dir/leetcode/496_nextGreaterElement.cpp.obj CMakeFiles/oj.dir/leetcode/hot100/hot100_94.cpp.obj CMakeFiles/oj.dir/leetcode/hot100/hot100_104.cpp.obj CMakeFiles/oj.dir/leetcode/hot100/hot100_226.cpp.obj CMakeFiles/oj.dir/leetcode/hot100/hot100_101.cpp.obj CMakeFiles/oj.dir/leetcode/hot100/hot100_543.cpp.obj CMakeFiles/oj.dir/leetcode/hot100/hot100_108.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\oj.dir
@@ -697,6 +709,72 @@ build hot100_101.exe: CXX_EXECUTABLE_LINKER__hot100_101_Debug CMakeFiles/hot100_
   TARGET_IMPLIB = libhot100_101.dll.a
   TARGET_PDB = hot100_101.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target hot100_543
+
+
+#############################################
+# Order-only phony target for hot100_543
+
+build cmake_object_order_depends_target_hot100_543: phony || CMakeFiles/hot100_543.dir
+
+build CMakeFiles/hot100_543.dir/leetcode/hot100/hot100_543.cpp.obj: CXX_COMPILER__hot100_543_unscanned_Debug D$:/CppProjects/oj/leetcode/hot100/hot100_543.cpp || cmake_object_order_depends_target_hot100_543
+  DEP_FILE = CMakeFiles\hot100_543.dir\leetcode\hot100\hot100_543.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\hot100_543.dir
+  OBJECT_FILE_DIR = CMakeFiles\hot100_543.dir\leetcode\hot100
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target hot100_543
+
+
+#############################################
+# Link the executable hot100_543.exe
+
+build hot100_543.exe: CXX_EXECUTABLE_LINKER__hot100_543_Debug CMakeFiles/hot100_543.dir/leetcode/hot100/hot100_543.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\hot100_543.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = hot100_543.exe
+  TARGET_IMPLIB = libhot100_543.dll.a
+  TARGET_PDB = hot100_543.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target hot100_108
+
+
+#############################################
+# Order-only phony target for hot100_108
+
+build cmake_object_order_depends_target_hot100_108: phony || CMakeFiles/hot100_108.dir
+
+build CMakeFiles/hot100_108.dir/leetcode/hot100/hot100_108.cpp.obj: CXX_COMPILER__hot100_108_unscanned_Debug D$:/CppProjects/oj/leetcode/hot100/hot100_108.cpp || cmake_object_order_depends_target_hot100_108
+  DEP_FILE = CMakeFiles\hot100_108.dir\leetcode\hot100\hot100_108.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\hot100_108.dir
+  OBJECT_FILE_DIR = CMakeFiles\hot100_108.dir\leetcode\hot100
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target hot100_108
+
+
+#############################################
+# Link the executable hot100_108.exe
+
+build hot100_108.exe: CXX_EXECUTABLE_LINKER__hot100_108_Debug CMakeFiles/hot100_108.dir/leetcode/hot100/hot100_108.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\hot100_108.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = hot100_108.exe
+  TARGET_IMPLIB = libhot100_108.dll.a
+  TARGET_PDB = hot100_108.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -735,6 +813,8 @@ build hot100_101: phony hot100_101.exe
 
 build hot100_104: phony hot100_104.exe
 
+build hot100_108: phony hot100_108.exe
+
 build hot100_141: phony hot100_141.exe
 
 build hot100_160: phony hot100_160.exe
@@ -753,6 +833,8 @@ build hot100_238: phony hot100_238.exe
 
 build hot100_35: phony hot100_35.exe
 
+build hot100_543: phony hot100_543.exe
+
 build hot100_94: phony hot100_94.exe
 
 build oj: phony oj.exe
@@ -765,7 +847,7 @@ build oj: phony oj.exe
 #############################################
 # Folder: D:/CppProjects/oj/cmake-build-debug
 
-build all: phony oj.exe hot100_238.exe 202_happy_number.exe 26_removeDuplicates.exe hot100_160.exe hot100_206.exe hot100_234.exe hot100_141.exe hot100_21.exe hot100_35.exe 69_happy_number.exe hot100_20.exe 496_nextGreaterElement.exe hot100_94.exe hot100_104.exe hot100_226.exe hot100_101.exe
+build all: phony oj.exe hot100_238.exe 202_happy_number.exe 26_removeDuplicates.exe hot100_160.exe hot100_206.exe hot100_234.exe hot100_141.exe hot100_21.exe hot100_35.exe 69_happy_number.exe hot100_20.exe 496_nextGreaterElement.exe hot100_94.exe hot100_104.exe hot100_226.exe hot100_101.exe hot100_543.exe hot100_108.exe
 
 # =============================================================================
 # Built-in targets

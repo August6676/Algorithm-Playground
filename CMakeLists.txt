@@ -19,7 +19,9 @@ add_executable(oj leetcode/hot100/hot100_1.cpp
         leetcode/hot100/hot100_94.cpp
         leetcode/hot100/hot100_104.cpp
         leetcode/hot100/hot100_226.cpp
-        leetcode/hot100/hot100_101.cpp)
+        leetcode/hot100/hot100_101.cpp
+        leetcode/hot100/hot100_543.cpp
+        leetcode/hot100/hot100_108.cpp)
 
 add_executable(hot100_238 leetcode/hot100/hot100_238.cpp)
 
@@ -52,3 +54,7 @@ add_executable(hot100_104 leetcode/hot100/hot100_104.cpp)
 add_executable(hot100_226 leetcode/hot100/hot100_226.cpp)
 
 add_executable(hot100_101 leetcode/hot100/hot100_101.cpp)
+
+add_executable(hot100_543 leetcode/hot100/hot100_543.cpp)
+
+add_executable(hot100_108 leetcode/hot100/hot100_108.cpp)
