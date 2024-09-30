@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "hot100_35.exe"
+			"path" : "496_nextGreaterElement.exe"
 		},
 		{
-			"path" : "hot100_35.pdb"
+			"path" : "496_nextGreaterElement.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 42,
+				"line" : 30,
 				"parent" : 0
 			}
 		]
@@ -56,7 +56,7 @@
 			]
 		}
 	],
-	"id" : "hot100_35::@6890427a1f51a3e7e1df",
+	"id" : "496_nextGreaterElement::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -76,8 +76,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "hot100_35",
-	"nameOnDisk" : "hot100_35.exe",
+	"name" : "496_nextGreaterElement",
+	"nameOnDisk" : "496_nextGreaterElement.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -98,7 +98,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "leetcode/hot100/hot100_35.cpp",
+			"path" : "leetcode/496_nextGreaterElement.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

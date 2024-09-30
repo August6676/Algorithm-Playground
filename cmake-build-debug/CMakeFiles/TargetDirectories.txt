@@ -1,4 +1,4 @@
-D:/CppProjects/oj/cmake-build-debug/CMakeFiles/oj.dir
+D:/CppProjects/oj/cmake-build-debug/CMakeFiles/hot100_1.dir
 D:/CppProjects/oj/cmake-build-debug/CMakeFiles/hot100_238.dir
 D:/CppProjects/oj/cmake-build-debug/CMakeFiles/202_happy_number.dir
 D:/CppProjects/oj/cmake-build-debug/CMakeFiles/26_removeDuplicates.dir

@@ -5,17 +5,17 @@ using namespace std;
 int searchInsert(vector<int>& nums,int target) {
     int front = 0;
     int end = nums.size() - 1;
-    int mid = (front + end) /2;
+    int mid = front + (front - end) / 2; // 防止溢出
 
     while (front < end) {
         if (nums[mid] == target) return mid;
 
         if (nums[mid] > target) end =  mid - 1;
         else if (nums[mid] < target) front = mid + 1;
-        mid = (front + end) / 2;
+        mid = front + (front - end) / 2;
     }
     if (nums[mid] < target) return mid + 1; // 如果target比当前的数大 要添加到他的后面
-    else return mid;
+    return mid;
 }
 
 int main() {

@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "hot100_101.exe"
+			"path" : "hot100_1.exe"
 		},
 		{
-			"path" : "hot100_101.pdb"
+			"path" : "hot100_1.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 56,
+				"line" : 6,
 				"parent" : 0
 			}
 		]
@@ -56,7 +56,7 @@
 			]
 		}
 	],
-	"id" : "hot100_101::@6890427a1f51a3e7e1df",
+	"id" : "hot100_1::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -76,8 +76,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "hot100_101",
-	"nameOnDisk" : "hot100_101.exe",
+	"name" : "hot100_1",
+	"nameOnDisk" : "hot100_1.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -98,7 +98,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "leetcode/hot100/hot100_101.cpp",
+			"path" : "leetcode/hot100/hot100_1.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

@@ -34,8 +34,8 @@ int main() {
     s.push_back(s3);
     for (const auto& x : s) {
         cout << "字符串为：" << x << " ";
-        if (isValid(x)) cout << "是有效括号" << "\n";
-        else cout << "不是有效括号" << "\n";
+        if (isValid(x)) cout << "是有效括号" << endl;
+        else cout << "不是有效括号" << endl;
     }
     return 0;
 }
