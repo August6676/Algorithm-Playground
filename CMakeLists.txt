@@ -46,3 +46,5 @@ add_executable(hot100_121 leetcode/hot100/hot100_121.cpp)
 add_executable(409_longestPalindrome leetcode/409_longestPalindrome.cpp)
 
 add_executable(455_findContentChildren leetcode/455_findContentChildren.cpp)
+
+add_executable(hot100_70 leetcode/hot100/hot100_70.cpp)
