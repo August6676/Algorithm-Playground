@@ -60,3 +60,5 @@ add_executable(hot100_49 leetcode/hot100/hot100_49.cpp)
 add_executable(hot100_128 leetcode/hot100/hot100_128.cpp)
 
 add_executable(3_lengthOfLongestSubstring leetcode/3_lengthOfLongestSubstring.cpp)
+
+add_executable(hot100_11 leetcode/hot100/hot100_11.cpp)
