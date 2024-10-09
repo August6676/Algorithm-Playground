@@ -1063,6 +1063,39 @@ build hot100_15.exe: CXX_EXECUTABLE_LINKER__hot100_15_Debug CMakeFiles/hot100_15
   TARGET_IMPLIB = libhot100_15.dll.a
   TARGET_PDB = hot100_15.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 27_removeElement
+
+
+#############################################
+# Order-only phony target for 27_removeElement
+
+build cmake_object_order_depends_target_27_removeElement: phony || CMakeFiles/27_removeElement.dir
+
+build CMakeFiles/27_removeElement.dir/leetcode/27_removeElement.cpp.obj: CXX_COMPILER__27_removeElement_unscanned_Debug D$:/CppProjects/oj/leetcode/27_removeElement.cpp || cmake_object_order_depends_target_27_removeElement
+  DEP_FILE = CMakeFiles\27_removeElement.dir\leetcode\27_removeElement.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\27_removeElement.dir
+  OBJECT_FILE_DIR = CMakeFiles\27_removeElement.dir\leetcode
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 27_removeElement
+
+
+#############################################
+# Link the executable 27_removeElement.exe
+
+build 27_removeElement.exe: CXX_EXECUTABLE_LINKER__27_removeElement_Debug CMakeFiles/27_removeElement.dir/leetcode/27_removeElement.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\27_removeElement.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 27_removeElement.exe
+  TARGET_IMPLIB = lib27_removeElement.dll.a
+  TARGET_PDB = 27_removeElement.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1092,6 +1125,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 build 202_happy_number: phony 202_happy_number.exe
 
 build 26_removeDuplicates: phony 26_removeDuplicates.exe
+
+build 27_removeElement: phony 27_removeElement.exe
 
 build 3_lengthOfLongestSubstring: phony 3_lengthOfLongestSubstring.exe
 
@@ -1159,7 +1194,7 @@ build hot100_94: phony hot100_94.exe
 #############################################
 # Folder: D:/CppProjects/oj/cmake-build-debug
 
-build all: phony hot100_1.exe hot100_238.exe 202_happy_number.exe 26_removeDuplicates.exe hot100_160.exe hot100_206.exe hot100_234.exe hot100_141.exe hot100_21.exe hot100_35.exe 69_happy_number.exe hot100_20.exe 496_nextGreaterElement.exe hot100_94.exe hot100_104.exe hot100_226.exe hot100_101.exe hot100_543.exe hot100_108.exe hot100_121.exe 409_longestPalindrome.exe 455_findContentChildren.exe hot100_70.exe hot100_118.exe hot100_136.exe hot100_169.exe hot100_49.exe hot100_128.exe 3_lengthOfLongestSubstring.exe hot100_11.exe hot100_15.exe
+build all: phony hot100_1.exe hot100_238.exe 202_happy_number.exe 26_removeDuplicates.exe hot100_160.exe hot100_206.exe hot100_234.exe hot100_141.exe hot100_21.exe hot100_35.exe 69_happy_number.exe hot100_20.exe 496_nextGreaterElement.exe hot100_94.exe hot100_104.exe hot100_226.exe hot100_101.exe hot100_543.exe hot100_108.exe hot100_121.exe 409_longestPalindrome.exe 455_findContentChildren.exe hot100_70.exe hot100_118.exe hot100_136.exe hot100_169.exe hot100_49.exe hot100_128.exe 3_lengthOfLongestSubstring.exe hot100_11.exe hot100_15.exe 27_removeElement.exe
 
 # =============================================================================
 # Built-in targets
