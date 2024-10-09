@@ -1030,6 +1030,39 @@ build hot100_11.exe: CXX_EXECUTABLE_LINKER__hot100_11_Debug CMakeFiles/hot100_11
   TARGET_IMPLIB = libhot100_11.dll.a
   TARGET_PDB = hot100_11.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target hot100_15
+
+
+#############################################
+# Order-only phony target for hot100_15
+
+build cmake_object_order_depends_target_hot100_15: phony || CMakeFiles/hot100_15.dir
+
+build CMakeFiles/hot100_15.dir/leetcode/hot100/hot100_15.cpp.obj: CXX_COMPILER__hot100_15_unscanned_Debug D$:/CppProjects/oj/leetcode/hot100/hot100_15.cpp || cmake_object_order_depends_target_hot100_15
+  DEP_FILE = CMakeFiles\hot100_15.dir\leetcode\hot100\hot100_15.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\hot100_15.dir
+  OBJECT_FILE_DIR = CMakeFiles\hot100_15.dir\leetcode\hot100
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target hot100_15
+
+
+#############################################
+# Link the executable hot100_15.exe
+
+build hot100_15.exe: CXX_EXECUTABLE_LINKER__hot100_15_Debug CMakeFiles/hot100_15.dir/leetcode/hot100/hot100_15.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\hot100_15.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = hot100_15.exe
+  TARGET_IMPLIB = libhot100_15.dll.a
+  TARGET_PDB = hot100_15.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1090,6 +1123,8 @@ build hot100_136: phony hot100_136.exe
 
 build hot100_141: phony hot100_141.exe
 
+build hot100_15: phony hot100_15.exe
+
 build hot100_160: phony hot100_160.exe
 
 build hot100_169: phony hot100_169.exe
@@ -1124,7 +1159,7 @@ build hot100_94: phony hot100_94.exe
 #############################################
 # Folder: D:/CppProjects/oj/cmake-build-debug
 
-build all: phony hot100_1.exe hot100_238.exe 202_happy_number.exe 26_removeDuplicates.exe hot100_160.exe hot100_206.exe hot100_234.exe hot100_141.exe hot100_21.exe hot100_35.exe 69_happy_number.exe hot100_20.exe 496_nextGreaterElement.exe hot100_94.exe hot100_104.exe hot100_226.exe hot100_101.exe hot100_543.exe hot100_108.exe hot100_121.exe 409_longestPalindrome.exe 455_findContentChildren.exe hot100_70.exe hot100_118.exe hot100_136.exe hot100_169.exe hot100_49.exe hot100_128.exe 3_lengthOfLongestSubstring.exe hot100_11.exe
+build all: phony hot100_1.exe hot100_238.exe 202_happy_number.exe 26_removeDuplicates.exe hot100_160.exe hot100_206.exe hot100_234.exe hot100_141.exe hot100_21.exe hot100_35.exe 69_happy_number.exe hot100_20.exe 496_nextGreaterElement.exe hot100_94.exe hot100_104.exe hot100_226.exe hot100_101.exe hot100_543.exe hot100_108.exe hot100_121.exe 409_longestPalindrome.exe 455_findContentChildren.exe hot100_70.exe hot100_118.exe hot100_136.exe hot100_169.exe hot100_49.exe hot100_128.exe 3_lengthOfLongestSubstring.exe hot100_11.exe hot100_15.exe
 
 # =============================================================================
 # Built-in targets
