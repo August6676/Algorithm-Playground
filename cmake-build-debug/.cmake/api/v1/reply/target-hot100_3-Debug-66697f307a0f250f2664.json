@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "3_lengthOfLongestSubstring.exe"
+			"path" : "hot100_3.exe"
 		},
 		{
-			"path" : "3_lengthOfLongestSubstring.pdb"
+			"path" : "hot100_3.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -56,7 +56,7 @@
 			]
 		}
 	],
-	"id" : "3_lengthOfLongestSubstring::@6890427a1f51a3e7e1df",
+	"id" : "hot100_3::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -76,8 +76,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "3_lengthOfLongestSubstring",
-	"nameOnDisk" : "3_lengthOfLongestSubstring.exe",
+	"name" : "hot100_3",
+	"nameOnDisk" : "hot100_3.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -98,7 +98,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "leetcode/3_lengthOfLongestSubstring.cpp",
+			"path" : "leetcode/hot100/hot100_3.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

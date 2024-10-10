@@ -965,37 +965,37 @@ build hot100_128.exe: CXX_EXECUTABLE_LINKER__hot100_128_Debug CMakeFiles/hot100_
   TARGET_PDB = hot100_128.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target 3_lengthOfLongestSubstring
+# Object build statements for EXECUTABLE target hot100_3
 
 
 #############################################
-# Order-only phony target for 3_lengthOfLongestSubstring
+# Order-only phony target for hot100_3
 
-build cmake_object_order_depends_target_3_lengthOfLongestSubstring: phony || CMakeFiles/3_lengthOfLongestSubstring.dir
+build cmake_object_order_depends_target_hot100_3: phony || CMakeFiles/hot100_3.dir
 
-build CMakeFiles/3_lengthOfLongestSubstring.dir/leetcode/3_lengthOfLongestSubstring.cpp.obj: CXX_COMPILER__3_lengthOfLongestSubstring_unscanned_Debug D$:/CppProjects/oj/leetcode/3_lengthOfLongestSubstring.cpp || cmake_object_order_depends_target_3_lengthOfLongestSubstring
-  DEP_FILE = CMakeFiles\3_lengthOfLongestSubstring.dir\leetcode\3_lengthOfLongestSubstring.cpp.obj.d
+build CMakeFiles/hot100_3.dir/leetcode/hot100/hot100_3.cpp.obj: CXX_COMPILER__hot100_3_unscanned_Debug D$:/CppProjects/oj/leetcode/hot100/hot100_3.cpp || cmake_object_order_depends_target_hot100_3
+  DEP_FILE = CMakeFiles\hot100_3.dir\leetcode\hot100\hot100_3.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\3_lengthOfLongestSubstring.dir
-  OBJECT_FILE_DIR = CMakeFiles\3_lengthOfLongestSubstring.dir\leetcode
+  OBJECT_DIR = CMakeFiles\hot100_3.dir
+  OBJECT_FILE_DIR = CMakeFiles\hot100_3.dir\leetcode\hot100
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target 3_lengthOfLongestSubstring
+# Link build statements for EXECUTABLE target hot100_3
 
 
 #############################################
-# Link the executable 3_lengthOfLongestSubstring.exe
+# Link the executable hot100_3.exe
 
-build 3_lengthOfLongestSubstring.exe: CXX_EXECUTABLE_LINKER__3_lengthOfLongestSubstring_Debug CMakeFiles/3_lengthOfLongestSubstring.dir/leetcode/3_lengthOfLongestSubstring.cpp.obj
+build hot100_3.exe: CXX_EXECUTABLE_LINKER__hot100_3_Debug CMakeFiles/hot100_3.dir/leetcode/hot100/hot100_3.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\3_lengthOfLongestSubstring.dir
+  OBJECT_DIR = CMakeFiles\hot100_3.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = 3_lengthOfLongestSubstring.exe
-  TARGET_IMPLIB = lib3_lengthOfLongestSubstring.dll.a
-  TARGET_PDB = 3_lengthOfLongestSubstring.exe.dbg
+  TARGET_FILE = hot100_3.exe
+  TARGET_IMPLIB = libhot100_3.dll.a
+  TARGET_PDB = hot100_3.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target hot100_11
@@ -1096,6 +1096,39 @@ build 27_removeElement.exe: CXX_EXECUTABLE_LINKER__27_removeElement_Debug CMakeF
   TARGET_IMPLIB = lib27_removeElement.dll.a
   TARGET_PDB = 27_removeElement.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target hot100_438
+
+
+#############################################
+# Order-only phony target for hot100_438
+
+build cmake_object_order_depends_target_hot100_438: phony || CMakeFiles/hot100_438.dir
+
+build CMakeFiles/hot100_438.dir/leetcode/hot100/hot100_438.cpp.obj: CXX_COMPILER__hot100_438_unscanned_Debug D$:/CppProjects/oj/leetcode/hot100/hot100_438.cpp || cmake_object_order_depends_target_hot100_438
+  DEP_FILE = CMakeFiles\hot100_438.dir\leetcode\hot100\hot100_438.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\hot100_438.dir
+  OBJECT_FILE_DIR = CMakeFiles\hot100_438.dir\leetcode\hot100
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target hot100_438
+
+
+#############################################
+# Link the executable hot100_438.exe
+
+build hot100_438.exe: CXX_EXECUTABLE_LINKER__hot100_438_Debug CMakeFiles/hot100_438.dir/leetcode/hot100/hot100_438.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\hot100_438.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = hot100_438.exe
+  TARGET_IMPLIB = libhot100_438.dll.a
+  TARGET_PDB = hot100_438.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1127,8 +1160,6 @@ build 202_happy_number: phony 202_happy_number.exe
 build 26_removeDuplicates: phony 26_removeDuplicates.exe
 
 build 27_removeElement: phony 27_removeElement.exe
-
-build 3_lengthOfLongestSubstring: phony 3_lengthOfLongestSubstring.exe
 
 build 409_longestPalindrome: phony 409_longestPalindrome.exe
 
@@ -1176,7 +1207,11 @@ build hot100_234: phony hot100_234.exe
 
 build hot100_238: phony hot100_238.exe
 
+build hot100_3: phony hot100_3.exe
+
 build hot100_35: phony hot100_35.exe
+
+build hot100_438: phony hot100_438.exe
 
 build hot100_49: phony hot100_49.exe
 
@@ -1194,7 +1229,7 @@ build hot100_94: phony hot100_94.exe
 #############################################
 # Folder: D:/CppProjects/oj/cmake-build-debug
 
-build all: phony hot100_1.exe hot100_238.exe 202_happy_number.exe 26_removeDuplicates.exe hot100_160.exe hot100_206.exe hot100_234.exe hot100_141.exe hot100_21.exe hot100_35.exe 69_happy_number.exe hot100_20.exe 496_nextGreaterElement.exe hot100_94.exe hot100_104.exe hot100_226.exe hot100_101.exe hot100_543.exe hot100_108.exe hot100_121.exe 409_longestPalindrome.exe 455_findContentChildren.exe hot100_70.exe hot100_118.exe hot100_136.exe hot100_169.exe hot100_49.exe hot100_128.exe 3_lengthOfLongestSubstring.exe hot100_11.exe hot100_15.exe 27_removeElement.exe
+build all: phony hot100_1.exe hot100_238.exe 202_happy_number.exe 26_removeDuplicates.exe hot100_160.exe hot100_206.exe hot100_234.exe hot100_141.exe hot100_21.exe hot100_35.exe 69_happy_number.exe hot100_20.exe 496_nextGreaterElement.exe hot100_94.exe hot100_104.exe hot100_226.exe hot100_101.exe hot100_543.exe hot100_108.exe hot100_121.exe 409_longestPalindrome.exe 455_findContentChildren.exe hot100_70.exe hot100_118.exe hot100_136.exe hot100_169.exe hot100_49.exe hot100_128.exe hot100_3.exe hot100_11.exe hot100_15.exe 27_removeElement.exe hot100_438.exe
 
 # =============================================================================
 # Built-in targets

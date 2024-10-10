@@ -3,7 +3,7 @@
 #include <unordered_map>
 using namespace std;
 /*
- *  双指针法
+ *  双指针法 滑动窗口
  * */
 int lengthOfLongestSubstring(string s) {
     if (s.empty()) return 0;
