@@ -1129,6 +1129,72 @@ build hot100_438.exe: CXX_EXECUTABLE_LINKER__hot100_438_Debug CMakeFiles/hot100_
   TARGET_IMPLIB = libhot100_438.dll.a
   TARGET_PDB = hot100_438.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 219_containsNearbyDuplicate
+
+
+#############################################
+# Order-only phony target for 219_containsNearbyDuplicate
+
+build cmake_object_order_depends_target_219_containsNearbyDuplicate: phony || CMakeFiles/219_containsNearbyDuplicate.dir
+
+build CMakeFiles/219_containsNearbyDuplicate.dir/leetcode/219_containsNearbyDuplicate.cpp.obj: CXX_COMPILER__219_containsNearbyDuplicate_unscanned_Debug D$:/CppProjects/oj/leetcode/219_containsNearbyDuplicate.cpp || cmake_object_order_depends_target_219_containsNearbyDuplicate
+  DEP_FILE = CMakeFiles\219_containsNearbyDuplicate.dir\leetcode\219_containsNearbyDuplicate.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\219_containsNearbyDuplicate.dir
+  OBJECT_FILE_DIR = CMakeFiles\219_containsNearbyDuplicate.dir\leetcode
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 219_containsNearbyDuplicate
+
+
+#############################################
+# Link the executable 219_containsNearbyDuplicate.exe
+
+build 219_containsNearbyDuplicate.exe: CXX_EXECUTABLE_LINKER__219_containsNearbyDuplicate_Debug CMakeFiles/219_containsNearbyDuplicate.dir/leetcode/219_containsNearbyDuplicate.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\219_containsNearbyDuplicate.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 219_containsNearbyDuplicate.exe
+  TARGET_IMPLIB = lib219_containsNearbyDuplicate.dll.a
+  TARGET_PDB = 219_containsNearbyDuplicate.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 209_minSubArrayLen
+
+
+#############################################
+# Order-only phony target for 209_minSubArrayLen
+
+build cmake_object_order_depends_target_209_minSubArrayLen: phony || CMakeFiles/209_minSubArrayLen.dir
+
+build CMakeFiles/209_minSubArrayLen.dir/leetcode/209_minSubArrayLen.cpp.obj: CXX_COMPILER__209_minSubArrayLen_unscanned_Debug D$:/CppProjects/oj/leetcode/209_minSubArrayLen.cpp || cmake_object_order_depends_target_209_minSubArrayLen
+  DEP_FILE = CMakeFiles\209_minSubArrayLen.dir\leetcode\209_minSubArrayLen.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\209_minSubArrayLen.dir
+  OBJECT_FILE_DIR = CMakeFiles\209_minSubArrayLen.dir\leetcode
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 209_minSubArrayLen
+
+
+#############################################
+# Link the executable 209_minSubArrayLen.exe
+
+build 209_minSubArrayLen.exe: CXX_EXECUTABLE_LINKER__209_minSubArrayLen_Debug CMakeFiles/209_minSubArrayLen.dir/leetcode/209_minSubArrayLen.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\209_minSubArrayLen.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 209_minSubArrayLen.exe
+  TARGET_IMPLIB = lib209_minSubArrayLen.dll.a
+  TARGET_PDB = 209_minSubArrayLen.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1156,6 +1222,10 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # Target aliases.
 
 build 202_happy_number: phony 202_happy_number.exe
+
+build 209_minSubArrayLen: phony 209_minSubArrayLen.exe
+
+build 219_containsNearbyDuplicate: phony 219_containsNearbyDuplicate.exe
 
 build 26_removeDuplicates: phony 26_removeDuplicates.exe
 
@@ -1229,7 +1299,7 @@ build hot100_94: phony hot100_94.exe
 #############################################
 # Folder: D:/CppProjects/oj/cmake-build-debug
 
-build all: phony hot100_1.exe hot100_238.exe 202_happy_number.exe 26_removeDuplicates.exe hot100_160.exe hot100_206.exe hot100_234.exe hot100_141.exe hot100_21.exe hot100_35.exe 69_happy_number.exe hot100_20.exe 496_nextGreaterElement.exe hot100_94.exe hot100_104.exe hot100_226.exe hot100_101.exe hot100_543.exe hot100_108.exe hot100_121.exe 409_longestPalindrome.exe 455_findContentChildren.exe hot100_70.exe hot100_118.exe hot100_136.exe hot100_169.exe hot100_49.exe hot100_128.exe hot100_3.exe hot100_11.exe hot100_15.exe 27_removeElement.exe hot100_438.exe
+build all: phony hot100_1.exe hot100_238.exe 202_happy_number.exe 26_removeDuplicates.exe hot100_160.exe hot100_206.exe hot100_234.exe hot100_141.exe hot100_21.exe hot100_35.exe 69_happy_number.exe hot100_20.exe 496_nextGreaterElement.exe hot100_94.exe hot100_104.exe hot100_226.exe hot100_101.exe hot100_543.exe hot100_108.exe hot100_121.exe 409_longestPalindrome.exe 455_findContentChildren.exe hot100_70.exe hot100_118.exe hot100_136.exe hot100_169.exe hot100_49.exe hot100_128.exe hot100_3.exe hot100_11.exe hot100_15.exe 27_removeElement.exe hot100_438.exe 219_containsNearbyDuplicate.exe 209_minSubArrayLen.exe
 
 # =============================================================================
 # Built-in targets
