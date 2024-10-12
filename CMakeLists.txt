@@ -72,3 +72,7 @@ add_executable(hot100_438 leetcode/hot100/hot100_438.cpp)
 add_executable(219_containsNearbyDuplicate leetcode/219_containsNearbyDuplicate.cpp)
 
 add_executable(209_minSubArrayLen leetcode/209_minSubArrayLen.cpp)
+
+add_executable(28_strStr leetcode/28_strStr.cpp)
+
+add_executable(189_rotate leetcode/189_rotate.cpp)

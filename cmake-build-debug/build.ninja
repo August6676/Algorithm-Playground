@@ -1195,6 +1195,72 @@ build 209_minSubArrayLen.exe: CXX_EXECUTABLE_LINKER__209_minSubArrayLen_Debug CM
   TARGET_IMPLIB = lib209_minSubArrayLen.dll.a
   TARGET_PDB = 209_minSubArrayLen.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 28_strStr
+
+
+#############################################
+# Order-only phony target for 28_strStr
+
+build cmake_object_order_depends_target_28_strStr: phony || CMakeFiles/28_strStr.dir
+
+build CMakeFiles/28_strStr.dir/leetcode/28_strStr.cpp.obj: CXX_COMPILER__28_strStr_unscanned_Debug D$:/CppProjects/oj/leetcode/28_strStr.cpp || cmake_object_order_depends_target_28_strStr
+  DEP_FILE = CMakeFiles\28_strStr.dir\leetcode\28_strStr.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\28_strStr.dir
+  OBJECT_FILE_DIR = CMakeFiles\28_strStr.dir\leetcode
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 28_strStr
+
+
+#############################################
+# Link the executable 28_strStr.exe
+
+build 28_strStr.exe: CXX_EXECUTABLE_LINKER__28_strStr_Debug CMakeFiles/28_strStr.dir/leetcode/28_strStr.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\28_strStr.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 28_strStr.exe
+  TARGET_IMPLIB = lib28_strStr.dll.a
+  TARGET_PDB = 28_strStr.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 189_rotate
+
+
+#############################################
+# Order-only phony target for 189_rotate
+
+build cmake_object_order_depends_target_189_rotate: phony || CMakeFiles/189_rotate.dir
+
+build CMakeFiles/189_rotate.dir/leetcode/189_rotate.cpp.obj: CXX_COMPILER__189_rotate_unscanned_Debug D$:/CppProjects/oj/leetcode/189_rotate.cpp || cmake_object_order_depends_target_189_rotate
+  DEP_FILE = CMakeFiles\189_rotate.dir\leetcode\189_rotate.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\189_rotate.dir
+  OBJECT_FILE_DIR = CMakeFiles\189_rotate.dir\leetcode
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 189_rotate
+
+
+#############################################
+# Link the executable 189_rotate.exe
+
+build 189_rotate.exe: CXX_EXECUTABLE_LINKER__189_rotate_Debug CMakeFiles/189_rotate.dir/leetcode/189_rotate.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\189_rotate.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 189_rotate.exe
+  TARGET_IMPLIB = lib189_rotate.dll.a
+  TARGET_PDB = 189_rotate.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1221,6 +1287,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build 189_rotate: phony 189_rotate.exe
+
 build 202_happy_number: phony 202_happy_number.exe
 
 build 209_minSubArrayLen: phony 209_minSubArrayLen.exe
@@ -1230,6 +1298,8 @@ build 219_containsNearbyDuplicate: phony 219_containsNearbyDuplicate.exe
 build 26_removeDuplicates: phony 26_removeDuplicates.exe
 
 build 27_removeElement: phony 27_removeElement.exe
+
+build 28_strStr: phony 28_strStr.exe
 
 build 409_longestPalindrome: phony 409_longestPalindrome.exe
 
@@ -1299,7 +1369,7 @@ build hot100_94: phony hot100_94.exe
 #############################################
 # Folder: D:/CppProjects/oj/cmake-build-debug
 
-build all: phony hot100_1.exe hot100_238.exe 202_happy_number.exe 26_removeDuplicates.exe hot100_160.exe hot100_206.exe hot100_234.exe hot100_141.exe hot100_21.exe hot100_35.exe 69_happy_number.exe hot100_20.exe 496_nextGreaterElement.exe hot100_94.exe hot100_104.exe hot100_226.exe hot100_101.exe hot100_543.exe hot100_108.exe hot100_121.exe 409_longestPalindrome.exe 455_findContentChildren.exe hot100_70.exe hot100_118.exe hot100_136.exe hot100_169.exe hot100_49.exe hot100_128.exe hot100_3.exe hot100_11.exe hot100_15.exe 27_removeElement.exe hot100_438.exe 219_containsNearbyDuplicate.exe 209_minSubArrayLen.exe
+build all: phony hot100_1.exe hot100_238.exe 202_happy_number.exe 26_removeDuplicates.exe hot100_160.exe hot100_206.exe hot100_234.exe hot100_141.exe hot100_21.exe hot100_35.exe 69_happy_number.exe hot100_20.exe 496_nextGreaterElement.exe hot100_94.exe hot100_104.exe hot100_226.exe hot100_101.exe hot100_543.exe hot100_108.exe hot100_121.exe 409_longestPalindrome.exe 455_findContentChildren.exe hot100_70.exe hot100_118.exe hot100_136.exe hot100_169.exe hot100_49.exe hot100_128.exe hot100_3.exe hot100_11.exe hot100_15.exe 27_removeElement.exe hot100_438.exe 219_containsNearbyDuplicate.exe 209_minSubArrayLen.exe 28_strStr.exe 189_rotate.exe
 
 # =============================================================================
 # Built-in targets

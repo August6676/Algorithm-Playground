@@ -49,7 +49,9 @@
 						31,
 						32,
 						33,
-						34
+						34,
+						35,
+						36
 					]
 				}
 			],
@@ -98,12 +100,21 @@
 						31,
 						32,
 						33,
-						34
+						34,
+						35,
+						36
 					]
 				}
 			],
 			"targets" : 
 			[
+				{
+					"directoryIndex" : 0,
+					"id" : "189_rotate::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-189_rotate-Debug-043d8dbbb56baecd91f4.json",
+					"name" : "189_rotate",
+					"projectIndex" : 0
+				},
 				{
 					"directoryIndex" : 0,
 					"id" : "202_happy_number::@6890427a1f51a3e7e1df",
@@ -137,6 +148,13 @@
 					"id" : "27_removeElement::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-27_removeElement-Debug-1573edfc26764e50c11d.json",
 					"name" : "27_removeElement",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "28_strStr::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-28_strStr-Debug-a024c1989c119c674505.json",
+					"name" : "28_strStr",
 					"projectIndex" : 0
 				},
 				{
