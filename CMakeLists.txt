@@ -76,3 +76,7 @@ add_executable(209_minSubArrayLen leetcode/209_minSubArrayLen.cpp)
 add_executable(28_strStr leetcode/28_strStr.cpp)
 
 add_executable(189_rotate leetcode/189_rotate.cpp)
+
+add_executable(hot100_560 leetcode/hot100/hot100_560.cpp)
+
+add_executable(724_pivotIndex leetcode/724_pivotIndex.cpp)

@@ -1261,6 +1261,72 @@ build 189_rotate.exe: CXX_EXECUTABLE_LINKER__189_rotate_Debug CMakeFiles/189_rot
   TARGET_IMPLIB = lib189_rotate.dll.a
   TARGET_PDB = 189_rotate.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target hot100_560
+
+
+#############################################
+# Order-only phony target for hot100_560
+
+build cmake_object_order_depends_target_hot100_560: phony || CMakeFiles/hot100_560.dir
+
+build CMakeFiles/hot100_560.dir/leetcode/hot100/hot100_560.cpp.obj: CXX_COMPILER__hot100_560_unscanned_Debug D$:/CppProjects/oj/leetcode/hot100/hot100_560.cpp || cmake_object_order_depends_target_hot100_560
+  DEP_FILE = CMakeFiles\hot100_560.dir\leetcode\hot100\hot100_560.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\hot100_560.dir
+  OBJECT_FILE_DIR = CMakeFiles\hot100_560.dir\leetcode\hot100
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target hot100_560
+
+
+#############################################
+# Link the executable hot100_560.exe
+
+build hot100_560.exe: CXX_EXECUTABLE_LINKER__hot100_560_Debug CMakeFiles/hot100_560.dir/leetcode/hot100/hot100_560.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\hot100_560.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = hot100_560.exe
+  TARGET_IMPLIB = libhot100_560.dll.a
+  TARGET_PDB = hot100_560.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 724_pivotIndex
+
+
+#############################################
+# Order-only phony target for 724_pivotIndex
+
+build cmake_object_order_depends_target_724_pivotIndex: phony || CMakeFiles/724_pivotIndex.dir
+
+build CMakeFiles/724_pivotIndex.dir/leetcode/724_pivotIndex.cpp.obj: CXX_COMPILER__724_pivotIndex_unscanned_Debug D$:/CppProjects/oj/leetcode/724_pivotIndex.cpp || cmake_object_order_depends_target_724_pivotIndex
+  DEP_FILE = CMakeFiles\724_pivotIndex.dir\leetcode\724_pivotIndex.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\724_pivotIndex.dir
+  OBJECT_FILE_DIR = CMakeFiles\724_pivotIndex.dir\leetcode
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 724_pivotIndex
+
+
+#############################################
+# Link the executable 724_pivotIndex.exe
+
+build 724_pivotIndex.exe: CXX_EXECUTABLE_LINKER__724_pivotIndex_Debug CMakeFiles/724_pivotIndex.dir/leetcode/724_pivotIndex.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\724_pivotIndex.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 724_pivotIndex.exe
+  TARGET_IMPLIB = lib724_pivotIndex.dll.a
+  TARGET_PDB = 724_pivotIndex.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1308,6 +1374,8 @@ build 455_findContentChildren: phony 455_findContentChildren.exe
 build 496_nextGreaterElement: phony 496_nextGreaterElement.exe
 
 build 69_happy_number: phony 69_happy_number.exe
+
+build 724_pivotIndex: phony 724_pivotIndex.exe
 
 build hot100_1: phony hot100_1.exe
 
@@ -1357,6 +1425,8 @@ build hot100_49: phony hot100_49.exe
 
 build hot100_543: phony hot100_543.exe
 
+build hot100_560: phony hot100_560.exe
+
 build hot100_70: phony hot100_70.exe
 
 build hot100_94: phony hot100_94.exe
@@ -1369,7 +1439,7 @@ build hot100_94: phony hot100_94.exe
 #############################################
 # Folder: D:/CppProjects/oj/cmake-build-debug
 
-build all: phony hot100_1.exe hot100_238.exe 202_happy_number.exe 26_removeDuplicates.exe hot100_160.exe hot100_206.exe hot100_234.exe hot100_141.exe hot100_21.exe hot100_35.exe 69_happy_number.exe hot100_20.exe 496_nextGreaterElement.exe hot100_94.exe hot100_104.exe hot100_226.exe hot100_101.exe hot100_543.exe hot100_108.exe hot100_121.exe 409_longestPalindrome.exe 455_findContentChildren.exe hot100_70.exe hot100_118.exe hot100_136.exe hot100_169.exe hot100_49.exe hot100_128.exe hot100_3.exe hot100_11.exe hot100_15.exe 27_removeElement.exe hot100_438.exe 219_containsNearbyDuplicate.exe 209_minSubArrayLen.exe 28_strStr.exe 189_rotate.exe
+build all: phony hot100_1.exe hot100_238.exe 202_happy_number.exe 26_removeDuplicates.exe hot100_160.exe hot100_206.exe hot100_234.exe hot100_141.exe hot100_21.exe hot100_35.exe 69_happy_number.exe hot100_20.exe 496_nextGreaterElement.exe hot100_94.exe hot100_104.exe hot100_226.exe hot100_101.exe hot100_543.exe hot100_108.exe hot100_121.exe 409_longestPalindrome.exe 455_findContentChildren.exe hot100_70.exe hot100_118.exe hot100_136.exe hot100_169.exe hot100_49.exe hot100_128.exe hot100_3.exe hot100_11.exe hot100_15.exe 27_removeElement.exe hot100_438.exe 219_containsNearbyDuplicate.exe 209_minSubArrayLen.exe 28_strStr.exe 189_rotate.exe hot100_560.exe 724_pivotIndex.exe
 
 # =============================================================================
 # Built-in targets
