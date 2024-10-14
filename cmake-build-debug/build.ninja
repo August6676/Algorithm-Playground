@@ -1327,6 +1327,72 @@ build 724_pivotIndex.exe: CXX_EXECUTABLE_LINKER__724_pivotIndex_Debug CMakeFiles
   TARGET_IMPLIB = lib724_pivotIndex.dll.a
   TARGET_PDB = 724_pivotIndex.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 1413_minStartValue
+
+
+#############################################
+# Order-only phony target for 1413_minStartValue
+
+build cmake_object_order_depends_target_1413_minStartValue: phony || CMakeFiles/1413_minStartValue.dir
+
+build CMakeFiles/1413_minStartValue.dir/leetcode/1413_minStartValue.cpp.obj: CXX_COMPILER__1413_minStartValue_unscanned_Debug D$:/CppProjects/oj/leetcode/1413_minStartValue.cpp || cmake_object_order_depends_target_1413_minStartValue
+  DEP_FILE = CMakeFiles\1413_minStartValue.dir\leetcode\1413_minStartValue.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\1413_minStartValue.dir
+  OBJECT_FILE_DIR = CMakeFiles\1413_minStartValue.dir\leetcode
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1413_minStartValue
+
+
+#############################################
+# Link the executable 1413_minStartValue.exe
+
+build 1413_minStartValue.exe: CXX_EXECUTABLE_LINKER__1413_minStartValue_Debug CMakeFiles/1413_minStartValue.dir/leetcode/1413_minStartValue.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\1413_minStartValue.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 1413_minStartValue.exe
+  TARGET_IMPLIB = lib1413_minStartValue.dll.a
+  TARGET_PDB = 1413_minStartValue.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 238_productExceptSelf
+
+
+#############################################
+# Order-only phony target for 238_productExceptSelf
+
+build cmake_object_order_depends_target_238_productExceptSelf: phony || CMakeFiles/238_productExceptSelf.dir
+
+build CMakeFiles/238_productExceptSelf.dir/leetcode/238_productExceptSelf.cpp.obj: CXX_COMPILER__238_productExceptSelf_unscanned_Debug D$:/CppProjects/oj/leetcode/238_productExceptSelf.cpp || cmake_object_order_depends_target_238_productExceptSelf
+  DEP_FILE = CMakeFiles\238_productExceptSelf.dir\leetcode\238_productExceptSelf.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\238_productExceptSelf.dir
+  OBJECT_FILE_DIR = CMakeFiles\238_productExceptSelf.dir\leetcode
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 238_productExceptSelf
+
+
+#############################################
+# Link the executable 238_productExceptSelf.exe
+
+build 238_productExceptSelf.exe: CXX_EXECUTABLE_LINKER__238_productExceptSelf_Debug CMakeFiles/238_productExceptSelf.dir/leetcode/238_productExceptSelf.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\238_productExceptSelf.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 238_productExceptSelf.exe
+  TARGET_IMPLIB = lib238_productExceptSelf.dll.a
+  TARGET_PDB = 238_productExceptSelf.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1353,6 +1419,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build 1413_minStartValue: phony 1413_minStartValue.exe
+
 build 189_rotate: phony 189_rotate.exe
 
 build 202_happy_number: phony 202_happy_number.exe
@@ -1360,6 +1428,8 @@ build 202_happy_number: phony 202_happy_number.exe
 build 209_minSubArrayLen: phony 209_minSubArrayLen.exe
 
 build 219_containsNearbyDuplicate: phony 219_containsNearbyDuplicate.exe
+
+build 238_productExceptSelf: phony 238_productExceptSelf.exe
 
 build 26_removeDuplicates: phony 26_removeDuplicates.exe
 
@@ -1439,7 +1509,7 @@ build hot100_94: phony hot100_94.exe
 #############################################
 # Folder: D:/CppProjects/oj/cmake-build-debug
 
-build all: phony hot100_1.exe hot100_238.exe 202_happy_number.exe 26_removeDuplicates.exe hot100_160.exe hot100_206.exe hot100_234.exe hot100_141.exe hot100_21.exe hot100_35.exe 69_happy_number.exe hot100_20.exe 496_nextGreaterElement.exe hot100_94.exe hot100_104.exe hot100_226.exe hot100_101.exe hot100_543.exe hot100_108.exe hot100_121.exe 409_longestPalindrome.exe 455_findContentChildren.exe hot100_70.exe hot100_118.exe hot100_136.exe hot100_169.exe hot100_49.exe hot100_128.exe hot100_3.exe hot100_11.exe hot100_15.exe 27_removeElement.exe hot100_438.exe 219_containsNearbyDuplicate.exe 209_minSubArrayLen.exe 28_strStr.exe 189_rotate.exe hot100_560.exe 724_pivotIndex.exe
+build all: phony hot100_1.exe hot100_238.exe 202_happy_number.exe 26_removeDuplicates.exe hot100_160.exe hot100_206.exe hot100_234.exe hot100_141.exe hot100_21.exe hot100_35.exe 69_happy_number.exe hot100_20.exe 496_nextGreaterElement.exe hot100_94.exe hot100_104.exe hot100_226.exe hot100_101.exe hot100_543.exe hot100_108.exe hot100_121.exe 409_longestPalindrome.exe 455_findContentChildren.exe hot100_70.exe hot100_118.exe hot100_136.exe hot100_169.exe hot100_49.exe hot100_128.exe hot100_3.exe hot100_11.exe hot100_15.exe 27_removeElement.exe hot100_438.exe 219_containsNearbyDuplicate.exe 209_minSubArrayLen.exe 28_strStr.exe 189_rotate.exe hot100_560.exe 724_pivotIndex.exe 1413_minStartValue.exe 238_productExceptSelf.exe
 
 # =============================================================================
 # Built-in targets

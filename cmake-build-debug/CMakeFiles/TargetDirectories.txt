@@ -37,5 +37,7 @@ D:/CppProjects/oj/cmake-build-debug/CMakeFiles/28_strStr.dir
 D:/CppProjects/oj/cmake-build-debug/CMakeFiles/189_rotate.dir
 D:/CppProjects/oj/cmake-build-debug/CMakeFiles/hot100_560.dir
 D:/CppProjects/oj/cmake-build-debug/CMakeFiles/724_pivotIndex.dir
+D:/CppProjects/oj/cmake-build-debug/CMakeFiles/1413_minStartValue.dir
+D:/CppProjects/oj/cmake-build-debug/CMakeFiles/238_productExceptSelf.dir
 D:/CppProjects/oj/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/CppProjects/oj/cmake-build-debug/CMakeFiles/rebuild_cache.dir
