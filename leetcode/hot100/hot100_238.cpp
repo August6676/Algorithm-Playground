@@ -2,40 +2,29 @@
 #include <vector>
 using namespace std;
 
-void moveZeroes(vector<int>& nums) {
-    // 使用双指针 左指针指向已经处理好的序列尾部，右指针指向待处理的序列头部
-    // 从left开始到right的前一个元素是0
-    int n = nums.size();
-    int left = 0;
-    int right = 0;
-    while (right < n) {
-        // 如果right遇到非零元素，则将其与left指向的元素交换，并将left右移一位
-        if (nums[right]) {
-            swap(nums[left],nums[right]);
-            left ++;
-        }
-        right ++;
+vector<int> productExceptSelf(vector<int>& nums) {
+    vector<int> prefix(nums.size(),1); // 存储前面的 注意 初始化的时候需要是1
+    vector<int> endfix(nums.size(),1); // 存储后面的
+
+    for (int i = 1; i < nums.size();i++) {
+        prefix[i] = prefix[i -1] * nums[i - 1];
     }
 
+    for (int i = nums.size() - 2; i >= 0; i--) {
+        endfix[i] = nums[i + 1] * endfix[i + 1];
+    }
+
+    vector<int> ans(nums.size(),1);
+    for (int i = 0; i < nums.size(); i++) {
+        ans[i] = prefix[i] * endfix[i];
+    }
+    return ans;
 }
 
-int main () {
-    int n;
-    cout << "请输入数组的长度：";
-    cin >> n;
-    vector<int> nums(n);
-    cout << "请输入数组的元素（用空格分开）：";
-    for (int i = 0; i < n; ++i) {
-        cin >> nums[i];
-    }
-
-    cout << "原始数组：";
-    for (int i = 0; i < n; ++i) {
-        cout << nums[i] << " ";
-    }
-    moveZeroes(nums);
-    cout << "\n移动0到数组头部后的数组：";
-    for (int i = 0; i < n; ++i) {
-        cout << nums[i] << " ";
+int main() {
+    vector nums = {-1,1,0,-3,3};
+    vector<int> ans = productExceptSelf(nums);
+    for (int num: ans) {
+        cout << num << " ";
     }
 }

@@ -74,37 +74,37 @@ build hot100_1.exe: CXX_EXECUTABLE_LINKER__hot100_1_Debug CMakeFiles/hot100_1.di
   TARGET_PDB = hot100_1.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target hot100_238
+# Object build statements for EXECUTABLE target hot100_283
 
 
 #############################################
-# Order-only phony target for hot100_238
+# Order-only phony target for hot100_283
 
-build cmake_object_order_depends_target_hot100_238: phony || CMakeFiles/hot100_238.dir
+build cmake_object_order_depends_target_hot100_283: phony || CMakeFiles/hot100_283.dir
 
-build CMakeFiles/hot100_238.dir/leetcode/hot100/hot100_238.cpp.obj: CXX_COMPILER__hot100_238_unscanned_Debug D$:/CppProjects/oj/leetcode/hot100/hot100_238.cpp || cmake_object_order_depends_target_hot100_238
-  DEP_FILE = CMakeFiles\hot100_238.dir\leetcode\hot100\hot100_238.cpp.obj.d
+build CMakeFiles/hot100_283.dir/leetcode/hot100/hot100_283.cpp.obj: CXX_COMPILER__hot100_283_unscanned_Debug D$:/CppProjects/oj/leetcode/hot100/hot100_283.cpp || cmake_object_order_depends_target_hot100_283
+  DEP_FILE = CMakeFiles\hot100_283.dir\leetcode\hot100\hot100_283.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\hot100_238.dir
-  OBJECT_FILE_DIR = CMakeFiles\hot100_238.dir\leetcode\hot100
+  OBJECT_DIR = CMakeFiles\hot100_283.dir
+  OBJECT_FILE_DIR = CMakeFiles\hot100_283.dir\leetcode\hot100
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target hot100_238
+# Link build statements for EXECUTABLE target hot100_283
 
 
 #############################################
-# Link the executable hot100_238.exe
+# Link the executable hot100_283.exe
 
-build hot100_238.exe: CXX_EXECUTABLE_LINKER__hot100_238_Debug CMakeFiles/hot100_238.dir/leetcode/hot100/hot100_238.cpp.obj
+build hot100_283.exe: CXX_EXECUTABLE_LINKER__hot100_283_Debug CMakeFiles/hot100_283.dir/leetcode/hot100/hot100_283.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\hot100_238.dir
+  OBJECT_DIR = CMakeFiles\hot100_283.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = hot100_238.exe
-  TARGET_IMPLIB = libhot100_238.dll.a
-  TARGET_PDB = hot100_238.exe.dbg
+  TARGET_FILE = hot100_283.exe
+  TARGET_IMPLIB = libhot100_283.dll.a
+  TARGET_PDB = hot100_283.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 202_happy_number
@@ -1229,37 +1229,37 @@ build 28_strStr.exe: CXX_EXECUTABLE_LINKER__28_strStr_Debug CMakeFiles/28_strStr
   TARGET_PDB = 28_strStr.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target 189_rotate
+# Object build statements for EXECUTABLE target hot100_189
 
 
 #############################################
-# Order-only phony target for 189_rotate
+# Order-only phony target for hot100_189
 
-build cmake_object_order_depends_target_189_rotate: phony || CMakeFiles/189_rotate.dir
+build cmake_object_order_depends_target_hot100_189: phony || CMakeFiles/hot100_189.dir
 
-build CMakeFiles/189_rotate.dir/leetcode/189_rotate.cpp.obj: CXX_COMPILER__189_rotate_unscanned_Debug D$:/CppProjects/oj/leetcode/189_rotate.cpp || cmake_object_order_depends_target_189_rotate
-  DEP_FILE = CMakeFiles\189_rotate.dir\leetcode\189_rotate.cpp.obj.d
+build CMakeFiles/hot100_189.dir/leetcode/hot100/hot100_189.cpp.obj: CXX_COMPILER__hot100_189_unscanned_Debug D$:/CppProjects/oj/leetcode/hot100/hot100_189.cpp || cmake_object_order_depends_target_hot100_189
+  DEP_FILE = CMakeFiles\hot100_189.dir\leetcode\hot100\hot100_189.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\189_rotate.dir
-  OBJECT_FILE_DIR = CMakeFiles\189_rotate.dir\leetcode
+  OBJECT_DIR = CMakeFiles\hot100_189.dir
+  OBJECT_FILE_DIR = CMakeFiles\hot100_189.dir\leetcode\hot100
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target 189_rotate
+# Link build statements for EXECUTABLE target hot100_189
 
 
 #############################################
-# Link the executable 189_rotate.exe
+# Link the executable hot100_189.exe
 
-build 189_rotate.exe: CXX_EXECUTABLE_LINKER__189_rotate_Debug CMakeFiles/189_rotate.dir/leetcode/189_rotate.cpp.obj
+build hot100_189.exe: CXX_EXECUTABLE_LINKER__hot100_189_Debug CMakeFiles/hot100_189.dir/leetcode/hot100/hot100_189.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\189_rotate.dir
+  OBJECT_DIR = CMakeFiles\hot100_189.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = 189_rotate.exe
-  TARGET_IMPLIB = lib189_rotate.dll.a
-  TARGET_PDB = 189_rotate.exe.dbg
+  TARGET_FILE = hot100_189.exe
+  TARGET_IMPLIB = libhot100_189.dll.a
+  TARGET_PDB = hot100_189.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target hot100_560
@@ -1361,37 +1361,70 @@ build 1413_minStartValue.exe: CXX_EXECUTABLE_LINKER__1413_minStartValue_Debug CM
   TARGET_PDB = 1413_minStartValue.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target 238_productExceptSelf
+# Object build statements for EXECUTABLE target hot100_238
 
 
 #############################################
-# Order-only phony target for 238_productExceptSelf
+# Order-only phony target for hot100_238
 
-build cmake_object_order_depends_target_238_productExceptSelf: phony || CMakeFiles/238_productExceptSelf.dir
+build cmake_object_order_depends_target_hot100_238: phony || CMakeFiles/hot100_238.dir
 
-build CMakeFiles/238_productExceptSelf.dir/leetcode/238_productExceptSelf.cpp.obj: CXX_COMPILER__238_productExceptSelf_unscanned_Debug D$:/CppProjects/oj/leetcode/238_productExceptSelf.cpp || cmake_object_order_depends_target_238_productExceptSelf
-  DEP_FILE = CMakeFiles\238_productExceptSelf.dir\leetcode\238_productExceptSelf.cpp.obj.d
+build CMakeFiles/hot100_238.dir/leetcode/hot100/hot100_238.cpp.obj: CXX_COMPILER__hot100_238_unscanned_Debug D$:/CppProjects/oj/leetcode/hot100/hot100_238.cpp || cmake_object_order_depends_target_hot100_238
+  DEP_FILE = CMakeFiles\hot100_238.dir\leetcode\hot100\hot100_238.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\238_productExceptSelf.dir
-  OBJECT_FILE_DIR = CMakeFiles\238_productExceptSelf.dir\leetcode
+  OBJECT_DIR = CMakeFiles\hot100_238.dir
+  OBJECT_FILE_DIR = CMakeFiles\hot100_238.dir\leetcode\hot100
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target 238_productExceptSelf
+# Link build statements for EXECUTABLE target hot100_238
 
 
 #############################################
-# Link the executable 238_productExceptSelf.exe
+# Link the executable hot100_238.exe
 
-build 238_productExceptSelf.exe: CXX_EXECUTABLE_LINKER__238_productExceptSelf_Debug CMakeFiles/238_productExceptSelf.dir/leetcode/238_productExceptSelf.cpp.obj
+build hot100_238.exe: CXX_EXECUTABLE_LINKER__hot100_238_Debug CMakeFiles/hot100_238.dir/leetcode/hot100/hot100_238.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\238_productExceptSelf.dir
+  OBJECT_DIR = CMakeFiles\hot100_238.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = 238_productExceptSelf.exe
-  TARGET_IMPLIB = lib238_productExceptSelf.dll.a
-  TARGET_PDB = 238_productExceptSelf.exe.dbg
+  TARGET_FILE = hot100_238.exe
+  TARGET_IMPLIB = libhot100_238.dll.a
+  TARGET_PDB = hot100_238.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target hot100_53
+
+
+#############################################
+# Order-only phony target for hot100_53
+
+build cmake_object_order_depends_target_hot100_53: phony || CMakeFiles/hot100_53.dir
+
+build CMakeFiles/hot100_53.dir/leetcode/hot100/hot100_53.cpp.obj: CXX_COMPILER__hot100_53_unscanned_Debug D$:/CppProjects/oj/leetcode/hot100/hot100_53.cpp || cmake_object_order_depends_target_hot100_53
+  DEP_FILE = CMakeFiles\hot100_53.dir\leetcode\hot100\hot100_53.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\hot100_53.dir
+  OBJECT_FILE_DIR = CMakeFiles\hot100_53.dir\leetcode\hot100
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target hot100_53
+
+
+#############################################
+# Link the executable hot100_53.exe
+
+build hot100_53.exe: CXX_EXECUTABLE_LINKER__hot100_53_Debug CMakeFiles/hot100_53.dir/leetcode/hot100/hot100_53.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\hot100_53.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = hot100_53.exe
+  TARGET_IMPLIB = libhot100_53.dll.a
+  TARGET_PDB = hot100_53.exe.dbg
 
 
 #############################################
@@ -1421,15 +1454,11 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build 1413_minStartValue: phony 1413_minStartValue.exe
 
-build 189_rotate: phony 189_rotate.exe
-
 build 202_happy_number: phony 202_happy_number.exe
 
 build 209_minSubArrayLen: phony 209_minSubArrayLen.exe
 
 build 219_containsNearbyDuplicate: phony 219_containsNearbyDuplicate.exe
-
-build 238_productExceptSelf: phony 238_productExceptSelf.exe
 
 build 26_removeDuplicates: phony 26_removeDuplicates.exe
 
@@ -1473,6 +1502,8 @@ build hot100_160: phony hot100_160.exe
 
 build hot100_169: phony hot100_169.exe
 
+build hot100_189: phony hot100_189.exe
+
 build hot100_20: phony hot100_20.exe
 
 build hot100_206: phony hot100_206.exe
@@ -1485,6 +1516,8 @@ build hot100_234: phony hot100_234.exe
 
 build hot100_238: phony hot100_238.exe
 
+build hot100_283: phony hot100_283.exe
+
 build hot100_3: phony hot100_3.exe
 
 build hot100_35: phony hot100_35.exe
@@ -1492,6 +1525,8 @@ build hot100_35: phony hot100_35.exe
 build hot100_438: phony hot100_438.exe
 
 build hot100_49: phony hot100_49.exe
+
+build hot100_53: phony hot100_53.exe
 
 build hot100_543: phony hot100_543.exe
 
@@ -1509,7 +1544,7 @@ build hot100_94: phony hot100_94.exe
 #############################################
 # Folder: D:/CppProjects/oj/cmake-build-debug
 
-build all: phony hot100_1.exe hot100_238.exe 202_happy_number.exe 26_removeDuplicates.exe hot100_160.exe hot100_206.exe hot100_234.exe hot100_141.exe hot100_21.exe hot100_35.exe 69_happy_number.exe hot100_20.exe 496_nextGreaterElement.exe hot100_94.exe hot100_104.exe hot100_226.exe hot100_101.exe hot100_543.exe hot100_108.exe hot100_121.exe 409_longestPalindrome.exe 455_findContentChildren.exe hot100_70.exe hot100_118.exe hot100_136.exe hot100_169.exe hot100_49.exe hot100_128.exe hot100_3.exe hot100_11.exe hot100_15.exe 27_removeElement.exe hot100_438.exe 219_containsNearbyDuplicate.exe 209_minSubArrayLen.exe 28_strStr.exe 189_rotate.exe hot100_560.exe 724_pivotIndex.exe 1413_minStartValue.exe 238_productExceptSelf.exe
+build all: phony hot100_1.exe hot100_283.exe 202_happy_number.exe 26_removeDuplicates.exe hot100_160.exe hot100_206.exe hot100_234.exe hot100_141.exe hot100_21.exe hot100_35.exe 69_happy_number.exe hot100_20.exe 496_nextGreaterElement.exe hot100_94.exe hot100_104.exe hot100_226.exe hot100_101.exe hot100_543.exe hot100_108.exe hot100_121.exe 409_longestPalindrome.exe 455_findContentChildren.exe hot100_70.exe hot100_118.exe hot100_136.exe hot100_169.exe hot100_49.exe hot100_128.exe hot100_3.exe hot100_11.exe hot100_15.exe 27_removeElement.exe hot100_438.exe 219_containsNearbyDuplicate.exe 209_minSubArrayLen.exe 28_strStr.exe hot100_189.exe hot100_560.exe 724_pivotIndex.exe 1413_minStartValue.exe hot100_238.exe hot100_53.exe
 
 # =============================================================================
 # Built-in targets

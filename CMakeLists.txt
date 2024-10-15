@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 17)
 
 add_executable(hot100_1 leetcode/hot100/hot100_1.cpp)
 
-add_executable(hot100_238 leetcode/hot100/hot100_238.cpp)
+add_executable(hot100_283 leetcode/hot100/hot100_283.cpp)
 
 add_executable(202_happy_number leetcode/202_happy_number.cpp)
 
@@ -75,7 +75,7 @@ add_executable(209_minSubArrayLen leetcode/209_minSubArrayLen.cpp)
 
 add_executable(28_strStr leetcode/28_strStr.cpp)
 
-add_executable(189_rotate leetcode/189_rotate.cpp)
+add_executable(hot100_189 leetcode/hot100/hot100_189.cpp)
 
 add_executable(hot100_560 leetcode/hot100/hot100_560.cpp)
 
@@ -83,4 +83,6 @@ add_executable(724_pivotIndex leetcode/724_pivotIndex.cpp)
 
 add_executable(1413_minStartValue leetcode/1413_minStartValue.cpp)
 
-add_executable(238_productExceptSelf leetcode/238_productExceptSelf.cpp)
+add_executable(hot100_238 leetcode/hot100/hot100_238.cpp)
+
+add_executable(hot100_53 leetcode/hot100/hot100_53.cpp)

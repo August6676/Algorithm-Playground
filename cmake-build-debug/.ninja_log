@@ -21,7 +21,7 @@
 4	670	7494571556170792	CMakeFiles/409_longestPalindrome.dir/leetcode/409_longestPalindrome.cpp.obj	3c5dc50176e6b54f
 565	672	7486944607442669	hot100_234.exe	92a5a6d2390e00a8
 4	356	7487644925117007	CMakeFiles/hot100_141.dir/leetcode/hot100/hot100_141.cpp.obj	a0a468a8d1cc0220
-10	476	7505848531185438	build.ninja	67e2c6af69a93a41
+10	476	7506687124675852	build.ninja	67e2c6af69a93a41
 3	894	7499349211680734	CMakeFiles/hot100_49.dir/leetcode/hot100/hot100_49.cpp.obj	ff27561962356e95
 5	613	7492894852632016	CMakeFiles/hot100_108.dir/leetcode/hot100/hot100_108.cpp.obj	c46ad157cd6ef577
 356	426	7487644925788879	hot100_141.exe	64709bc318214ead
@@ -80,9 +80,7 @@
 458	549	7504936299601871	724_pivotIndex.exe	cf0d2eccd907b4da
 4	706	7505772063855409	CMakeFiles/1413_minStartValue.dir/leetcode/1413_minStartValue.cpp.obj	bfab747f3e2d2c54
 707	951	7505772066298172	1413_minStartValue.exe	dc58580c8cea43fb
-4	614	7505851954360939	CMakeFiles/238_productExceptSelf.dir/leetcode/238_productExceptSelf.cpp.obj	3a77071e3cc733ac
-615	746	7505851955630907	238_productExceptSelf.exe	c85c20cd9dfcd585
-5	516	7505852428745223	CMakeFiles/238_productExceptSelf.dir/leetcode/238_productExceptSelf.cpp.obj	3a77071e3cc733ac
-517	634	7505852429876626	238_productExceptSelf.exe	c85c20cd9dfcd585
 5	507	7505852592666662	CMakeFiles/238_productExceptSelf.dir/leetcode/238_productExceptSelf.cpp.obj	3a77071e3cc733ac
 508	616	7505852593715245	238_productExceptSelf.exe	c85c20cd9dfcd585
+4	534	7506675673999061	CMakeFiles/hot100_53.dir/leetcode/hot100/hot100_53.cpp.obj	49772551965cfcb
+535	887	7506675677459090	hot100_53.exe	fe72005ca14faf57
