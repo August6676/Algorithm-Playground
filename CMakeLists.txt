@@ -86,3 +86,5 @@ add_executable(1413_minStartValue leetcode/1413_minStartValue.cpp)
 add_executable(hot100_238 leetcode/hot100/hot100_238.cpp)
 
 add_executable(hot100_53 leetcode/hot100/hot100_53.cpp)
+
+add_executable(hot100_56 leetcode/hot100/hot100_56.cpp)
