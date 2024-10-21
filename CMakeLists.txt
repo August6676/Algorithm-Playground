@@ -96,3 +96,7 @@ add_executable(hot100_54 leetcode/hot100/hot100_54.cpp)
 add_executable(hot100_48 leetcode/hot100/hot100_48.cpp)
 
 add_executable(hot100_240 leetcode/hot100/hot100_240.cpp)
+
+add_executable(59_generateMatrix leetcode/59_generateMatrix.cpp)
+
+add_executable(74_searchMatrix leetcode/74_searchMatrix.cpp)

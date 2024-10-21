@@ -1591,6 +1591,72 @@ build hot100_240.exe: CXX_EXECUTABLE_LINKER__hot100_240_Debug CMakeFiles/hot100_
   TARGET_IMPLIB = libhot100_240.dll.a
   TARGET_PDB = hot100_240.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 59_generateMatrix
+
+
+#############################################
+# Order-only phony target for 59_generateMatrix
+
+build cmake_object_order_depends_target_59_generateMatrix: phony || CMakeFiles/59_generateMatrix.dir
+
+build CMakeFiles/59_generateMatrix.dir/leetcode/59_generateMatrix.cpp.obj: CXX_COMPILER__59_generateMatrix_unscanned_Debug D$:/CppProjects/oj/leetcode/59_generateMatrix.cpp || cmake_object_order_depends_target_59_generateMatrix
+  DEP_FILE = CMakeFiles\59_generateMatrix.dir\leetcode\59_generateMatrix.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\59_generateMatrix.dir
+  OBJECT_FILE_DIR = CMakeFiles\59_generateMatrix.dir\leetcode
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 59_generateMatrix
+
+
+#############################################
+# Link the executable 59_generateMatrix.exe
+
+build 59_generateMatrix.exe: CXX_EXECUTABLE_LINKER__59_generateMatrix_Debug CMakeFiles/59_generateMatrix.dir/leetcode/59_generateMatrix.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\59_generateMatrix.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 59_generateMatrix.exe
+  TARGET_IMPLIB = lib59_generateMatrix.dll.a
+  TARGET_PDB = 59_generateMatrix.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 74_searchMatrix
+
+
+#############################################
+# Order-only phony target for 74_searchMatrix
+
+build cmake_object_order_depends_target_74_searchMatrix: phony || CMakeFiles/74_searchMatrix.dir
+
+build CMakeFiles/74_searchMatrix.dir/leetcode/74_searchMatrix.cpp.obj: CXX_COMPILER__74_searchMatrix_unscanned_Debug D$:/CppProjects/oj/leetcode/74_searchMatrix.cpp || cmake_object_order_depends_target_74_searchMatrix
+  DEP_FILE = CMakeFiles\74_searchMatrix.dir\leetcode\74_searchMatrix.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\74_searchMatrix.dir
+  OBJECT_FILE_DIR = CMakeFiles\74_searchMatrix.dir\leetcode
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 74_searchMatrix
+
+
+#############################################
+# Link the executable 74_searchMatrix.exe
+
+build 74_searchMatrix.exe: CXX_EXECUTABLE_LINKER__74_searchMatrix_Debug CMakeFiles/74_searchMatrix.dir/leetcode/74_searchMatrix.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\74_searchMatrix.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 74_searchMatrix.exe
+  TARGET_IMPLIB = lib74_searchMatrix.dll.a
+  TARGET_PDB = 74_searchMatrix.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1637,9 +1703,13 @@ build 455_findContentChildren: phony 455_findContentChildren.exe
 
 build 496_nextGreaterElement: phony 496_nextGreaterElement.exe
 
+build 59_generateMatrix: phony 59_generateMatrix.exe
+
 build 69_happy_number: phony 69_happy_number.exe
 
 build 724_pivotIndex: phony 724_pivotIndex.exe
+
+build 74_searchMatrix: phony 74_searchMatrix.exe
 
 build hot100_1: phony hot100_1.exe
 
@@ -1719,7 +1789,7 @@ build hot100_94: phony hot100_94.exe
 #############################################
 # Folder: D:/CppProjects/oj/cmake-build-debug
 
-build all: phony hot100_1.exe hot100_283.exe 202_happy_number.exe 26_removeDuplicates.exe hot100_160.exe hot100_206.exe hot100_234.exe hot100_141.exe hot100_21.exe hot100_35.exe 69_happy_number.exe hot100_20.exe 496_nextGreaterElement.exe hot100_94.exe hot100_104.exe hot100_226.exe hot100_101.exe hot100_543.exe hot100_108.exe hot100_121.exe 409_longestPalindrome.exe 455_findContentChildren.exe hot100_70.exe hot100_118.exe hot100_136.exe hot100_169.exe hot100_49.exe hot100_128.exe hot100_3.exe hot100_11.exe hot100_15.exe 27_removeElement.exe hot100_438.exe 219_containsNearbyDuplicate.exe 209_minSubArrayLen.exe 28_strStr.exe hot100_189.exe hot100_560.exe 724_pivotIndex.exe 1413_minStartValue.exe hot100_238.exe hot100_53.exe hot100_56.exe hot100_73.exe hot100_54.exe hot100_48.exe hot100_240.exe
+build all: phony hot100_1.exe hot100_283.exe 202_happy_number.exe 26_removeDuplicates.exe hot100_160.exe hot100_206.exe hot100_234.exe hot100_141.exe hot100_21.exe hot100_35.exe 69_happy_number.exe hot100_20.exe 496_nextGreaterElement.exe hot100_94.exe hot100_104.exe hot100_226.exe hot100_101.exe hot100_543.exe hot100_108.exe hot100_121.exe 409_longestPalindrome.exe 455_findContentChildren.exe hot100_70.exe hot100_118.exe hot100_136.exe hot100_169.exe hot100_49.exe hot100_128.exe hot100_3.exe hot100_11.exe hot100_15.exe 27_removeElement.exe hot100_438.exe 219_containsNearbyDuplicate.exe 209_minSubArrayLen.exe 28_strStr.exe hot100_189.exe hot100_560.exe 724_pivotIndex.exe 1413_minStartValue.exe hot100_238.exe hot100_53.exe hot100_56.exe hot100_73.exe hot100_54.exe hot100_48.exe hot100_240.exe 59_generateMatrix.exe 74_searchMatrix.exe
 
 # =============================================================================
 # Built-in targets
