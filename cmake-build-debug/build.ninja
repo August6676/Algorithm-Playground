@@ -1855,6 +1855,39 @@ build hot100_148.exe: CXX_EXECUTABLE_LINKER__hot100_148_Debug CMakeFiles/hot100_
   TARGET_IMPLIB = libhot100_148.dll.a
   TARGET_PDB = hot100_148.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 912_sortArray
+
+
+#############################################
+# Order-only phony target for 912_sortArray
+
+build cmake_object_order_depends_target_912_sortArray: phony || CMakeFiles/912_sortArray.dir
+
+build CMakeFiles/912_sortArray.dir/leetcode/912_sortArray.cpp.obj: CXX_COMPILER__912_sortArray_unscanned_Debug D$:/CppProjects/oj/leetcode/912_sortArray.cpp || cmake_object_order_depends_target_912_sortArray
+  DEP_FILE = CMakeFiles\912_sortArray.dir\leetcode\912_sortArray.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\912_sortArray.dir
+  OBJECT_FILE_DIR = CMakeFiles\912_sortArray.dir\leetcode
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 912_sortArray
+
+
+#############################################
+# Link the executable 912_sortArray.exe
+
+build 912_sortArray.exe: CXX_EXECUTABLE_LINKER__912_sortArray_Debug CMakeFiles/912_sortArray.dir/leetcode/912_sortArray.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\912_sortArray.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 912_sortArray.exe
+  TARGET_IMPLIB = lib912_sortArray.dll.a
+  TARGET_PDB = 912_sortArray.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1908,6 +1941,8 @@ build 69_happy_number: phony 69_happy_number.exe
 build 724_pivotIndex: phony 724_pivotIndex.exe
 
 build 74_searchMatrix: phony 74_searchMatrix.exe
+
+build 912_sortArray: phony 912_sortArray.exe
 
 build hot100_1: phony hot100_1.exe
 
@@ -1999,7 +2034,7 @@ build hot100_94: phony hot100_94.exe
 #############################################
 # Folder: D:/CppProjects/oj/cmake-build-debug
 
-build all: phony hot100_1.exe hot100_283.exe 202_happy_number.exe 26_removeDuplicates.exe hot100_160.exe hot100_206.exe hot100_234.exe hot100_141.exe hot100_21.exe hot100_35.exe 69_happy_number.exe hot100_20.exe 496_nextGreaterElement.exe hot100_94.exe hot100_104.exe hot100_226.exe hot100_101.exe hot100_543.exe hot100_108.exe hot100_121.exe 409_longestPalindrome.exe 455_findContentChildren.exe hot100_70.exe hot100_118.exe hot100_136.exe hot100_169.exe hot100_49.exe hot100_128.exe hot100_3.exe hot100_11.exe hot100_15.exe 27_removeElement.exe hot100_438.exe 219_containsNearbyDuplicate.exe 209_minSubArrayLen.exe 28_strStr.exe hot100_189.exe hot100_560.exe 724_pivotIndex.exe 1413_minStartValue.exe hot100_238.exe hot100_53.exe hot100_56.exe hot100_73.exe hot100_54.exe hot100_48.exe hot100_240.exe 59_generateMatrix.exe 74_searchMatrix.exe hot100_142.exe hot100_2.exe hot100_19.exe hot100_24.exe hot100_138.exe hot100_148.exe
+build all: phony hot100_1.exe hot100_283.exe 202_happy_number.exe 26_removeDuplicates.exe hot100_160.exe hot100_206.exe hot100_234.exe hot100_141.exe hot100_21.exe hot100_35.exe 69_happy_number.exe hot100_20.exe 496_nextGreaterElement.exe hot100_94.exe hot100_104.exe hot100_226.exe hot100_101.exe hot100_543.exe hot100_108.exe hot100_121.exe 409_longestPalindrome.exe 455_findContentChildren.exe hot100_70.exe hot100_118.exe hot100_136.exe hot100_169.exe hot100_49.exe hot100_128.exe hot100_3.exe hot100_11.exe hot100_15.exe 27_removeElement.exe hot100_438.exe 219_containsNearbyDuplicate.exe 209_minSubArrayLen.exe 28_strStr.exe hot100_189.exe hot100_560.exe 724_pivotIndex.exe 1413_minStartValue.exe hot100_238.exe hot100_53.exe hot100_56.exe hot100_73.exe hot100_54.exe hot100_48.exe hot100_240.exe 59_generateMatrix.exe 74_searchMatrix.exe hot100_142.exe hot100_2.exe hot100_19.exe hot100_24.exe hot100_138.exe hot100_148.exe 912_sortArray.exe
 
 # =============================================================================
 # Built-in targets
