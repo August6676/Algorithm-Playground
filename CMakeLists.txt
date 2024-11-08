@@ -134,3 +134,5 @@ add_executable(hot100_236 leetcode/hot100/hot100_236.cpp)
 add_executable(100_isSameTree leetcode/100_isSameTree.cpp)
 
 add_executable(99_recoverTree leetcode/99_recoverTree.cpp)
+
+add_executable(110_isBalanced leetcode/110_isBalanced.cpp)
