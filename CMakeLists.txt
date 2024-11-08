@@ -130,3 +130,7 @@ add_executable(hot100_105 leetcode/hot100/hot100_105.cpp)
 add_executable(hot100_437 leetcode/hot100/hot100_437.cpp)
 
 add_executable(hot100_236 leetcode/hot100/hot100_236.cpp)
+
+add_executable(100_isSameTree leetcode/100_isSameTree.cpp)
+
+add_executable(99_recoverTree leetcode/99_recoverTree.cpp)
