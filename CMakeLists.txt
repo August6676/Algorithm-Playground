@@ -136,3 +136,5 @@ add_executable(100_isSameTree leetcode/100_isSameTree.cpp)
 add_executable(99_recoverTree leetcode/99_recoverTree.cpp)
 
 add_executable(110_isBalanced leetcode/110_isBalanced.cpp)
+
+add_executable(111_minDepth leetcode/111_minDepth.cpp)
