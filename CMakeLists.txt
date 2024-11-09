@@ -3,6 +3,8 @@ project(oj)
 
 set(CMAKE_CXX_STANDARD 17)
 
+include_directories(head)
+
 add_executable(hot100_1 leetcode/hot100/hot100_1.cpp)
 
 add_executable(hot100_283 leetcode/hot100/hot100_283.cpp)
@@ -138,3 +140,7 @@ add_executable(99_recoverTree leetcode/99_recoverTree.cpp)
 add_executable(110_isBalanced leetcode/110_isBalanced.cpp)
 
 add_executable(111_minDepth leetcode/111_minDepth.cpp)
+
+add_executable(112_hasPathSum leetcode/112_hasPathSum.cpp head/TreeNode.h)
+
+add_executable(113_pathSum leetcode/113_pathSum.cpp head/TreeNode.h)

@@ -52,6 +52,7 @@ build cmake_object_order_depends_target_hot100_1: phony || CMakeFiles/hot100_1.d
 build CMakeFiles/hot100_1.dir/leetcode/hot100/hot100_1.cpp.obj: CXX_COMPILER__hot100_1_unscanned_Debug D$:/CppProjects/oj/leetcode/hot100/hot100_1.cpp || cmake_object_order_depends_target_hot100_1
   DEP_FILE = CMakeFiles\hot100_1.dir\leetcode\hot100\hot100_1.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CppProjects/oj/head
   OBJECT_DIR = CMakeFiles\hot100_1.dir
   OBJECT_FILE_DIR = CMakeFiles\hot100_1.dir\leetcode\hot100
 
@@ -85,6 +86,7 @@ build cmake_object_order_depends_target_hot100_283: phony || CMakeFiles/hot100_2
 build CMakeFiles/hot100_283.dir/leetcode/hot100/hot100_283.cpp.obj: CXX_COMPILER__hot100_283_unscanned_Debug D$:/CppProjects/oj/leetcode/hot100/hot100_283.cpp || cmake_object_order_depends_target_hot100_283
   DEP_FILE = CMakeFiles\hot100_283.dir\leetcode\hot100\hot100_283.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CppProjects/oj/head
   OBJECT_DIR = CMakeFiles\hot100_283.dir
   OBJECT_FILE_DIR = CMakeFiles\hot100_283.dir\leetcode\hot100
 
@@ -118,6 +120,7 @@ build cmake_object_order_depends_target_202_happy_number: phony || CMakeFiles/20
 build CMakeFiles/202_happy_number.dir/leetcode/202_happy_number.cpp.obj: CXX_COMPILER__202_happy_number_unscanned_Debug D$:/CppProjects/oj/leetcode/202_happy_number.cpp || cmake_object_order_depends_target_202_happy_number
   DEP_FILE = CMakeFiles\202_happy_number.dir\leetcode\202_happy_number.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CppProjects/oj/head
   OBJECT_DIR = CMakeFiles\202_happy_number.dir
   OBJECT_FILE_DIR = CMakeFiles\202_happy_number.dir\leetcode
 
@@ -151,6 +154,7 @@ build cmake_object_order_depends_target_26_removeDuplicates: phony || CMakeFiles
 build CMakeFiles/26_removeDuplicates.dir/leetcode/26_removeDuplicates.cpp.obj: CXX_COMPILER__26_removeDuplicates_unscanned_Debug D$:/CppProjects/oj/leetcode/26_removeDuplicates.cpp || cmake_object_order_depends_target_26_removeDuplicates
   DEP_FILE = CMakeFiles\26_removeDuplicates.dir\leetcode\26_removeDuplicates.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CppProjects/oj/head
   OBJECT_DIR = CMakeFiles\26_removeDuplicates.dir
   OBJECT_FILE_DIR = CMakeFiles\26_removeDuplicates.dir\leetcode
 
@@ -184,6 +188,7 @@ build cmake_object_order_depends_target_hot100_160: phony || CMakeFiles/hot100_1
 build CMakeFiles/hot100_160.dir/leetcode/hot100/hot100_160.cpp.obj: CXX_COMPILER__hot100_160_unscanned_Debug D$:/CppProjects/oj/leetcode/hot100/hot100_160.cpp || cmake_object_order_depends_target_hot100_160
   DEP_FILE = CMakeFiles\hot100_160.dir\leetcode\hot100\hot100_160.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CppProjects/oj/head
   OBJECT_DIR = CMakeFiles\hot100_160.dir
   OBJECT_FILE_DIR = CMakeFiles\hot100_160.dir\leetcode\hot100
 
@@ -217,6 +222,7 @@ build cmake_object_order_depends_target_hot100_206: phony || CMakeFiles/hot100_2
 build CMakeFiles/hot100_206.dir/leetcode/hot100/hot100_206.cpp.obj: CXX_COMPILER__hot100_206_unscanned_Debug D$:/CppProjects/oj/leetcode/hot100/hot100_206.cpp || cmake_object_order_depends_target_hot100_206
   DEP_FILE = CMakeFiles\hot100_206.dir\leetcode\hot100\hot100_206.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CppProjects/oj/head
   OBJECT_DIR = CMakeFiles\hot100_206.dir
   OBJECT_FILE_DIR = CMakeFiles\hot100_206.dir\leetcode\hot100
 
@@ -250,6 +256,7 @@ build cmake_object_order_depends_target_hot100_234: phony || CMakeFiles/hot100_2
 build CMakeFiles/hot100_234.dir/leetcode/hot100/hot100_234.cpp.obj: CXX_COMPILER__hot100_234_unscanned_Debug D$:/CppProjects/oj/leetcode/hot100/hot100_234.cpp || cmake_object_order_depends_target_hot100_234
   DEP_FILE = CMakeFiles\hot100_234.dir\leetcode\hot100\hot100_234.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CppProjects/oj/head
   OBJECT_DIR = CMakeFiles\hot100_234.dir
   OBJECT_FILE_DIR = CMakeFiles\hot100_234.dir\leetcode\hot100
 
@@ -283,6 +290,7 @@ build cmake_object_order_depends_target_hot100_141: phony || CMakeFiles/hot100_1
 build CMakeFiles/hot100_141.dir/leetcode/hot100/hot100_141.cpp.obj: CXX_COMPILER__hot100_141_unscanned_Debug D$:/CppProjects/oj/leetcode/hot100/hot100_141.cpp || cmake_object_order_depends_target_hot100_141
   DEP_FILE = CMakeFiles\hot100_141.dir\leetcode\hot100\hot100_141.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CppProjects/oj/head
   OBJECT_DIR = CMakeFiles\hot100_141.dir
   OBJECT_FILE_DIR = CMakeFiles\hot100_141.dir\leetcode\hot100
 
@@ -316,6 +324,7 @@ build cmake_object_order_depends_target_hot100_21: phony || CMakeFiles/hot100_21
 build CMakeFiles/hot100_21.dir/leetcode/hot100/hot100_21.cpp.obj: CXX_COMPILER__hot100_21_unscanned_Debug D$:/CppProjects/oj/leetcode/hot100/hot100_21.cpp || cmake_object_order_depends_target_hot100_21
   DEP_FILE = CMakeFiles\hot100_21.dir\leetcode\hot100\hot100_21.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CppProjects/oj/head
   OBJECT_DIR = CMakeFiles\hot100_21.dir
   OBJECT_FILE_DIR = CMakeFiles\hot100_21.dir\leetcode\hot100
 
@@ -349,6 +358,7 @@ build cmake_object_order_depends_target_hot100_35: phony || CMakeFiles/hot100_35
 build CMakeFiles/hot100_35.dir/leetcode/hot100/hot100_35.cpp.obj: CXX_COMPILER__hot100_35_unscanned_Debug D$:/CppProjects/oj/leetcode/hot100/hot100_35.cpp || cmake_object_order_depends_target_hot100_35
   DEP_FILE = CMakeFiles\hot100_35.dir\leetcode\hot100\hot100_35.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CppProjects/oj/head
   OBJECT_DIR = CMakeFiles\hot100_35.dir
   OBJECT_FILE_DIR = CMakeFiles\hot100_35.dir\leetcode\hot100
 
@@ -382,6 +392,7 @@ build cmake_object_order_depends_target_69_happy_number: phony || CMakeFiles/69_
 build CMakeFiles/69_happy_number.dir/leetcode/69_Sqrt_x.cpp.obj: CXX_COMPILER__69_happy_number_unscanned_Debug D$:/CppProjects/oj/leetcode/69_Sqrt_x.cpp || cmake_object_order_depends_target_69_happy_number
   DEP_FILE = CMakeFiles\69_happy_number.dir\leetcode\69_Sqrt_x.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CppProjects/oj/head
   OBJECT_DIR = CMakeFiles\69_happy_number.dir
   OBJECT_FILE_DIR = CMakeFiles\69_happy_number.dir\leetcode
 
@@ -415,6 +426,7 @@ build cmake_object_order_depends_target_hot100_20: phony || CMakeFiles/hot100_20
 build CMakeFiles/hot100_20.dir/leetcode/hot100/hot100_20.cpp.obj: CXX_COMPILER__hot100_20_unscanned_Debug D$:/CppProjects/oj/leetcode/hot100/hot100_20.cpp || cmake_object_order_depends_target_hot100_20
   DEP_FILE = CMakeFiles\hot100_20.dir\leetcode\hot100\hot100_20.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CppProjects/oj/head
   OBJECT_DIR = CMakeFiles\hot100_20.dir
   OBJECT_FILE_DIR = CMakeFiles\hot100_20.dir\leetcode\hot100
 
@@ -448,6 +460,7 @@ build cmake_object_order_depends_target_496_nextGreaterElement: phony || CMakeFi
 build CMakeFiles/496_nextGreaterElement.dir/leetcode/496_nextGreaterElement.cpp.obj: CXX_COMPILER__496_nextGreaterElement_unscanned_Debug D$:/CppProjects/oj/leetcode/496_nextGreaterElement.cpp || cmake_object_order_depends_target_496_nextGreaterElement
   DEP_FILE = CMakeFiles\496_nextGreaterElement.dir\leetcode\496_nextGreaterElement.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CppProjects/oj/head
   OBJECT_DIR = CMakeFiles\496_nextGreaterElement.dir
   OBJECT_FILE_DIR = CMakeFiles\496_nextGreaterElement.dir\leetcode
 
@@ -481,6 +494,7 @@ build cmake_object_order_depends_target_hot100_94: phony || CMakeFiles/hot100_94
 build CMakeFiles/hot100_94.dir/leetcode/hot100/hot100_94.cpp.obj: CXX_COMPILER__hot100_94_unscanned_Debug D$:/CppProjects/oj/leetcode/hot100/hot100_94.cpp || cmake_object_order_depends_target_hot100_94
   DEP_FILE = CMakeFiles\hot100_94.dir\leetcode\hot100\hot100_94.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CppProjects/oj/head
   OBJECT_DIR = CMakeFiles\hot100_94.dir
   OBJECT_FILE_DIR = CMakeFiles\hot100_94.dir\leetcode\hot100
 
@@ -514,6 +528,7 @@ build cmake_object_order_depends_target_hot100_104: phony || CMakeFiles/hot100_1
 build CMakeFiles/hot100_104.dir/leetcode/hot100/hot100_104.cpp.obj: CXX_COMPILER__hot100_104_unscanned_Debug D$:/CppProjects/oj/leetcode/hot100/hot100_104.cpp || cmake_object_order_depends_target_hot100_104
   DEP_FILE = CMakeFiles\hot100_104.dir\leetcode\hot100\hot100_104.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CppProjects/oj/head
   OBJECT_DIR = CMakeFiles\hot100_104.dir
   OBJECT_FILE_DIR = CMakeFiles\hot100_104.dir\leetcode\hot100
 
@@ -547,6 +562,7 @@ build cmake_object_order_depends_target_hot100_226: phony || CMakeFiles/hot100_2
 build CMakeFiles/hot100_226.dir/leetcode/hot100/hot100_226.cpp.obj: CXX_COMPILER__hot100_226_unscanned_Debug D$:/CppProjects/oj/leetcode/hot100/hot100_226.cpp || cmake_object_order_depends_target_hot100_226
   DEP_FILE = CMakeFiles\hot100_226.dir\leetcode\hot100\hot100_226.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CppProjects/oj/head
   OBJECT_DIR = CMakeFiles\hot100_226.dir
   OBJECT_FILE_DIR = CMakeFiles\hot100_226.dir\leetcode\hot100
 
@@ -580,6 +596,7 @@ build cmake_object_order_depends_target_hot100_101: phony || CMakeFiles/hot100_1
 build CMakeFiles/hot100_101.dir/leetcode/hot100/hot100_101.cpp.obj: CXX_COMPILER__hot100_101_unscanned_Debug D$:/CppProjects/oj/leetcode/hot100/hot100_101.cpp || cmake_object_order_depends_target_hot100_101
   DEP_FILE = CMakeFiles\hot100_101.dir\leetcode\hot100\hot100_101.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CppProjects/oj/head
   OBJECT_DIR = CMakeFiles\hot100_101.dir
   OBJECT_FILE_DIR = CMakeFiles\hot100_101.dir\leetcode\hot100
 
@@ -613,6 +630,7 @@ build cmake_object_order_depends_target_hot100_543: phony || CMakeFiles/hot100_5
 build CMakeFiles/hot100_543.dir/leetcode/hot100/hot100_543.cpp.obj: CXX_COMPILER__hot100_543_unscanned_Debug D$:/CppProjects/oj/leetcode/hot100/hot100_543.cpp || cmake_object_order_depends_target_hot100_543
   DEP_FILE = CMakeFiles\hot100_543.dir\leetcode\hot100\hot100_543.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CppProjects/oj/head
   OBJECT_DIR = CMakeFiles\hot100_543.dir
   OBJECT_FILE_DIR = CMakeFiles\hot100_543.dir\leetcode\hot100
 
@@ -646,6 +664,7 @@ build cmake_object_order_depends_target_hot100_108: phony || CMakeFiles/hot100_1
 build CMakeFiles/hot100_108.dir/leetcode/hot100/hot100_108.cpp.obj: CXX_COMPILER__hot100_108_unscanned_Debug D$:/CppProjects/oj/leetcode/hot100/hot100_108.cpp || cmake_object_order_depends_target_hot100_108
   DEP_FILE = CMakeFiles\hot100_108.dir\leetcode\hot100\hot100_108.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CppProjects/oj/head
   OBJECT_DIR = CMakeFiles\hot100_108.dir
   OBJECT_FILE_DIR = CMakeFiles\hot100_108.dir\leetcode\hot100
 
@@ -679,6 +698,7 @@ build cmake_object_order_depends_target_hot100_121: phony || CMakeFiles/hot100_1
 build CMakeFiles/hot100_121.dir/leetcode/hot100/hot100_121.cpp.obj: CXX_COMPILER__hot100_121_unscanned_Debug D$:/CppProjects/oj/leetcode/hot100/hot100_121.cpp || cmake_object_order_depends_target_hot100_121
   DEP_FILE = CMakeFiles\hot100_121.dir\leetcode\hot100\hot100_121.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CppProjects/oj/head
   OBJECT_DIR = CMakeFiles\hot100_121.dir
   OBJECT_FILE_DIR = CMakeFiles\hot100_121.dir\leetcode\hot100
 
@@ -712,6 +732,7 @@ build cmake_object_order_depends_target_409_longestPalindrome: phony || CMakeFil
 build CMakeFiles/409_longestPalindrome.dir/leetcode/409_longestPalindrome.cpp.obj: CXX_COMPILER__409_longestPalindrome_unscanned_Debug D$:/CppProjects/oj/leetcode/409_longestPalindrome.cpp || cmake_object_order_depends_target_409_longestPalindrome
   DEP_FILE = CMakeFiles\409_longestPalindrome.dir\leetcode\409_longestPalindrome.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CppProjects/oj/head
   OBJECT_DIR = CMakeFiles\409_longestPalindrome.dir
   OBJECT_FILE_DIR = CMakeFiles\409_longestPalindrome.dir\leetcode
 
@@ -745,6 +766,7 @@ build cmake_object_order_depends_target_455_findContentChildren: phony || CMakeF
 build CMakeFiles/455_findContentChildren.dir/leetcode/455_findContentChildren.cpp.obj: CXX_COMPILER__455_findContentChildren_unscanned_Debug D$:/CppProjects/oj/leetcode/455_findContentChildren.cpp || cmake_object_order_depends_target_455_findContentChildren
   DEP_FILE = CMakeFiles\455_findContentChildren.dir\leetcode\455_findContentChildren.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CppProjects/oj/head
   OBJECT_DIR = CMakeFiles\455_findContentChildren.dir
   OBJECT_FILE_DIR = CMakeFiles\455_findContentChildren.dir\leetcode
 
@@ -778,6 +800,7 @@ build cmake_object_order_depends_target_hot100_70: phony || CMakeFiles/hot100_70
 build CMakeFiles/hot100_70.dir/leetcode/hot100/hot100_70.cpp.obj: CXX_COMPILER__hot100_70_unscanned_Debug D$:/CppProjects/oj/leetcode/hot100/hot100_70.cpp || cmake_object_order_depends_target_hot100_70
   DEP_FILE = CMakeFiles\hot100_70.dir\leetcode\hot100\hot100_70.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CppProjects/oj/head
   OBJECT_DIR = CMakeFiles\hot100_70.dir
   OBJECT_FILE_DIR = CMakeFiles\hot100_70.dir\leetcode\hot100
 
@@ -811,6 +834,7 @@ build cmake_object_order_depends_target_hot100_118: phony || CMakeFiles/hot100_1
 build CMakeFiles/hot100_118.dir/leetcode/hot100/hot100_118.cpp.obj: CXX_COMPILER__hot100_118_unscanned_Debug D$:/CppProjects/oj/leetcode/hot100/hot100_118.cpp || cmake_object_order_depends_target_hot100_118
   DEP_FILE = CMakeFiles\hot100_118.dir\leetcode\hot100\hot100_118.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CppProjects/oj/head
   OBJECT_DIR = CMakeFiles\hot100_118.dir
   OBJECT_FILE_DIR = CMakeFiles\hot100_118.dir\leetcode\hot100
 
@@ -844,6 +868,7 @@ build cmake_object_order_depends_target_hot100_136: phony || CMakeFiles/hot100_1
 build CMakeFiles/hot100_136.dir/leetcode/hot100/hot100_136.cpp.obj: CXX_COMPILER__hot100_136_unscanned_Debug D$:/CppProjects/oj/leetcode/hot100/hot100_136.cpp || cmake_object_order_depends_target_hot100_136
   DEP_FILE = CMakeFiles\hot100_136.dir\leetcode\hot100\hot100_136.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CppProjects/oj/head
   OBJECT_DIR = CMakeFiles\hot100_136.dir
   OBJECT_FILE_DIR = CMakeFiles\hot100_136.dir\leetcode\hot100
 
@@ -877,6 +902,7 @@ build cmake_object_order_depends_target_hot100_169: phony || CMakeFiles/hot100_1
 build CMakeFiles/hot100_169.dir/leetcode/hot100/hot100_169.cpp.obj: CXX_COMPILER__hot100_169_unscanned_Debug D$:/CppProjects/oj/leetcode/hot100/hot100_169.cpp || cmake_object_order_depends_target_hot100_169
   DEP_FILE = CMakeFiles\hot100_169.dir\leetcode\hot100\hot100_169.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CppProjects/oj/head
   OBJECT_DIR = CMakeFiles\hot100_169.dir
   OBJECT_FILE_DIR = CMakeFiles\hot100_169.dir\leetcode\hot100
 
@@ -910,6 +936,7 @@ build cmake_object_order_depends_target_hot100_49: phony || CMakeFiles/hot100_49
 build CMakeFiles/hot100_49.dir/leetcode/hot100/hot100_49.cpp.obj: CXX_COMPILER__hot100_49_unscanned_Debug D$:/CppProjects/oj/leetcode/hot100/hot100_49.cpp || cmake_object_order_depends_target_hot100_49
   DEP_FILE = CMakeFiles\hot100_49.dir\leetcode\hot100\hot100_49.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CppProjects/oj/head
   OBJECT_DIR = CMakeFiles\hot100_49.dir
   OBJECT_FILE_DIR = CMakeFiles\hot100_49.dir\leetcode\hot100
 
@@ -943,6 +970,7 @@ build cmake_object_order_depends_target_hot100_128: phony || CMakeFiles/hot100_1
 build CMakeFiles/hot100_128.dir/leetcode/hot100/hot100_128.cpp.obj: CXX_COMPILER__hot100_128_unscanned_Debug D$:/CppProjects/oj/leetcode/hot100/hot100_128.cpp || cmake_object_order_depends_target_hot100_128
   DEP_FILE = CMakeFiles\hot100_128.dir\leetcode\hot100\hot100_128.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CppProjects/oj/head
   OBJECT_DIR = CMakeFiles\hot100_128.dir
   OBJECT_FILE_DIR = CMakeFiles\hot100_128.dir\leetcode\hot100
 
@@ -976,6 +1004,7 @@ build cmake_object_order_depends_target_hot100_3: phony || CMakeFiles/hot100_3.d
 build CMakeFiles/hot100_3.dir/leetcode/hot100/hot100_3.cpp.obj: CXX_COMPILER__hot100_3_unscanned_Debug D$:/CppProjects/oj/leetcode/hot100/hot100_3.cpp || cmake_object_order_depends_target_hot100_3
   DEP_FILE = CMakeFiles\hot100_3.dir\leetcode\hot100\hot100_3.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CppProjects/oj/head
   OBJECT_DIR = CMakeFiles\hot100_3.dir
   OBJECT_FILE_DIR = CMakeFiles\hot100_3.dir\leetcode\hot100
 
@@ -1009,6 +1038,7 @@ build cmake_object_order_depends_target_hot100_11: phony || CMakeFiles/hot100_11
 build CMakeFiles/hot100_11.dir/leetcode/hot100/hot100_11.cpp.obj: CXX_COMPILER__hot100_11_unscanned_Debug D$:/CppProjects/oj/leetcode/hot100/hot100_11.cpp || cmake_object_order_depends_target_hot100_11
   DEP_FILE = CMakeFiles\hot100_11.dir\leetcode\hot100\hot100_11.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CppProjects/oj/head
   OBJECT_DIR = CMakeFiles\hot100_11.dir
   OBJECT_FILE_DIR = CMakeFiles\hot100_11.dir\leetcode\hot100
 
@@ -1042,6 +1072,7 @@ build cmake_object_order_depends_target_hot100_15: phony || CMakeFiles/hot100_15
 build CMakeFiles/hot100_15.dir/leetcode/hot100/hot100_15.cpp.obj: CXX_COMPILER__hot100_15_unscanned_Debug D$:/CppProjects/oj/leetcode/hot100/hot100_15.cpp || cmake_object_order_depends_target_hot100_15
   DEP_FILE = CMakeFiles\hot100_15.dir\leetcode\hot100\hot100_15.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CppProjects/oj/head
   OBJECT_DIR = CMakeFiles\hot100_15.dir
   OBJECT_FILE_DIR = CMakeFiles\hot100_15.dir\leetcode\hot100
 
@@ -1075,6 +1106,7 @@ build cmake_object_order_depends_target_27_removeElement: phony || CMakeFiles/27
 build CMakeFiles/27_removeElement.dir/leetcode/27_removeElement.cpp.obj: CXX_COMPILER__27_removeElement_unscanned_Debug D$:/CppProjects/oj/leetcode/27_removeElement.cpp || cmake_object_order_depends_target_27_removeElement
   DEP_FILE = CMakeFiles\27_removeElement.dir\leetcode\27_removeElement.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CppProjects/oj/head
   OBJECT_DIR = CMakeFiles\27_removeElement.dir
   OBJECT_FILE_DIR = CMakeFiles\27_removeElement.dir\leetcode
 
@@ -1108,6 +1140,7 @@ build cmake_object_order_depends_target_hot100_438: phony || CMakeFiles/hot100_4
 build CMakeFiles/hot100_438.dir/leetcode/hot100/hot100_438.cpp.obj: CXX_COMPILER__hot100_438_unscanned_Debug D$:/CppProjects/oj/leetcode/hot100/hot100_438.cpp || cmake_object_order_depends_target_hot100_438
   DEP_FILE = CMakeFiles\hot100_438.dir\leetcode\hot100\hot100_438.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CppProjects/oj/head
   OBJECT_DIR = CMakeFiles\hot100_438.dir
   OBJECT_FILE_DIR = CMakeFiles\hot100_438.dir\leetcode\hot100
 
@@ -1141,6 +1174,7 @@ build cmake_object_order_depends_target_219_containsNearbyDuplicate: phony || CM
 build CMakeFiles/219_containsNearbyDuplicate.dir/leetcode/219_containsNearbyDuplicate.cpp.obj: CXX_COMPILER__219_containsNearbyDuplicate_unscanned_Debug D$:/CppProjects/oj/leetcode/219_containsNearbyDuplicate.cpp || cmake_object_order_depends_target_219_containsNearbyDuplicate
   DEP_FILE = CMakeFiles\219_containsNearbyDuplicate.dir\leetcode\219_containsNearbyDuplicate.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CppProjects/oj/head
   OBJECT_DIR = CMakeFiles\219_containsNearbyDuplicate.dir
   OBJECT_FILE_DIR = CMakeFiles\219_containsNearbyDuplicate.dir\leetcode
 
@@ -1174,6 +1208,7 @@ build cmake_object_order_depends_target_209_minSubArrayLen: phony || CMakeFiles/
 build CMakeFiles/209_minSubArrayLen.dir/leetcode/209_minSubArrayLen.cpp.obj: CXX_COMPILER__209_minSubArrayLen_unscanned_Debug D$:/CppProjects/oj/leetcode/209_minSubArrayLen.cpp || cmake_object_order_depends_target_209_minSubArrayLen
   DEP_FILE = CMakeFiles\209_minSubArrayLen.dir\leetcode\209_minSubArrayLen.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CppProjects/oj/head
   OBJECT_DIR = CMakeFiles\209_minSubArrayLen.dir
   OBJECT_FILE_DIR = CMakeFiles\209_minSubArrayLen.dir\leetcode
 
@@ -1207,6 +1242,7 @@ build cmake_object_order_depends_target_28_strStr: phony || CMakeFiles/28_strStr
 build CMakeFiles/28_strStr.dir/leetcode/28_strStr.cpp.obj: CXX_COMPILER__28_strStr_unscanned_Debug D$:/CppProjects/oj/leetcode/28_strStr.cpp || cmake_object_order_depends_target_28_strStr
   DEP_FILE = CMakeFiles\28_strStr.dir\leetcode\28_strStr.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CppProjects/oj/head
   OBJECT_DIR = CMakeFiles\28_strStr.dir
   OBJECT_FILE_DIR = CMakeFiles\28_strStr.dir\leetcode
 
@@ -1240,6 +1276,7 @@ build cmake_object_order_depends_target_hot100_189: phony || CMakeFiles/hot100_1
 build CMakeFiles/hot100_189.dir/leetcode/hot100/hot100_189.cpp.obj: CXX_COMPILER__hot100_189_unscanned_Debug D$:/CppProjects/oj/leetcode/hot100/hot100_189.cpp || cmake_object_order_depends_target_hot100_189
   DEP_FILE = CMakeFiles\hot100_189.dir\leetcode\hot100\hot100_189.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CppProjects/oj/head
   OBJECT_DIR = CMakeFiles\hot100_189.dir
   OBJECT_FILE_DIR = CMakeFiles\hot100_189.dir\leetcode\hot100
 
@@ -1273,6 +1310,7 @@ build cmake_object_order_depends_target_hot100_560: phony || CMakeFiles/hot100_5
 build CMakeFiles/hot100_560.dir/leetcode/hot100/hot100_560.cpp.obj: CXX_COMPILER__hot100_560_unscanned_Debug D$:/CppProjects/oj/leetcode/hot100/hot100_560.cpp || cmake_object_order_depends_target_hot100_560
   DEP_FILE = CMakeFiles\hot100_560.dir\leetcode\hot100\hot100_560.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CppProjects/oj/head
   OBJECT_DIR = CMakeFiles\hot100_560.dir
   OBJECT_FILE_DIR = CMakeFiles\hot100_560.dir\leetcode\hot100
 
@@ -1306,6 +1344,7 @@ build cmake_object_order_depends_target_724_pivotIndex: phony || CMakeFiles/724_
 build CMakeFiles/724_pivotIndex.dir/leetcode/724_pivotIndex.cpp.obj: CXX_COMPILER__724_pivotIndex_unscanned_Debug D$:/CppProjects/oj/leetcode/724_pivotIndex.cpp || cmake_object_order_depends_target_724_pivotIndex
   DEP_FILE = CMakeFiles\724_pivotIndex.dir\leetcode\724_pivotIndex.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CppProjects/oj/head
   OBJECT_DIR = CMakeFiles\724_pivotIndex.dir
   OBJECT_FILE_DIR = CMakeFiles\724_pivotIndex.dir\leetcode
 
@@ -1339,6 +1378,7 @@ build cmake_object_order_depends_target_1413_minStartValue: phony || CMakeFiles/
 build CMakeFiles/1413_minStartValue.dir/leetcode/1413_minStartValue.cpp.obj: CXX_COMPILER__1413_minStartValue_unscanned_Debug D$:/CppProjects/oj/leetcode/1413_minStartValue.cpp || cmake_object_order_depends_target_1413_minStartValue
   DEP_FILE = CMakeFiles\1413_minStartValue.dir\leetcode\1413_minStartValue.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CppProjects/oj/head
   OBJECT_DIR = CMakeFiles\1413_minStartValue.dir
   OBJECT_FILE_DIR = CMakeFiles\1413_minStartValue.dir\leetcode
 
@@ -1372,6 +1412,7 @@ build cmake_object_order_depends_target_hot100_238: phony || CMakeFiles/hot100_2
 build CMakeFiles/hot100_238.dir/leetcode/hot100/hot100_238.cpp.obj: CXX_COMPILER__hot100_238_unscanned_Debug D$:/CppProjects/oj/leetcode/hot100/hot100_238.cpp || cmake_object_order_depends_target_hot100_238
   DEP_FILE = CMakeFiles\hot100_238.dir\leetcode\hot100\hot100_238.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CppProjects/oj/head
   OBJECT_DIR = CMakeFiles\hot100_238.dir
   OBJECT_FILE_DIR = CMakeFiles\hot100_238.dir\leetcode\hot100
 
@@ -1405,6 +1446,7 @@ build cmake_object_order_depends_target_hot100_53: phony || CMakeFiles/hot100_53
 build CMakeFiles/hot100_53.dir/leetcode/hot100/hot100_53.cpp.obj: CXX_COMPILER__hot100_53_unscanned_Debug D$:/CppProjects/oj/leetcode/hot100/hot100_53.cpp || cmake_object_order_depends_target_hot100_53
   DEP_FILE = CMakeFiles\hot100_53.dir\leetcode\hot100\hot100_53.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CppProjects/oj/head
   OBJECT_DIR = CMakeFiles\hot100_53.dir
   OBJECT_FILE_DIR = CMakeFiles\hot100_53.dir\leetcode\hot100
 
@@ -1438,6 +1480,7 @@ build cmake_object_order_depends_target_hot100_56: phony || CMakeFiles/hot100_56
 build CMakeFiles/hot100_56.dir/leetcode/hot100/hot100_56.cpp.obj: CXX_COMPILER__hot100_56_unscanned_Debug D$:/CppProjects/oj/leetcode/hot100/hot100_56.cpp || cmake_object_order_depends_target_hot100_56
   DEP_FILE = CMakeFiles\hot100_56.dir\leetcode\hot100\hot100_56.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CppProjects/oj/head
   OBJECT_DIR = CMakeFiles\hot100_56.dir
   OBJECT_FILE_DIR = CMakeFiles\hot100_56.dir\leetcode\hot100
 
@@ -1471,6 +1514,7 @@ build cmake_object_order_depends_target_hot100_73: phony || CMakeFiles/hot100_73
 build CMakeFiles/hot100_73.dir/leetcode/hot100/hot100_73.cpp.obj: CXX_COMPILER__hot100_73_unscanned_Debug D$:/CppProjects/oj/leetcode/hot100/hot100_73.cpp || cmake_object_order_depends_target_hot100_73
   DEP_FILE = CMakeFiles\hot100_73.dir\leetcode\hot100\hot100_73.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CppProjects/oj/head
   OBJECT_DIR = CMakeFiles\hot100_73.dir
   OBJECT_FILE_DIR = CMakeFiles\hot100_73.dir\leetcode\hot100
 
@@ -1504,6 +1548,7 @@ build cmake_object_order_depends_target_hot100_54: phony || CMakeFiles/hot100_54
 build CMakeFiles/hot100_54.dir/leetcode/hot100/hot100_54.cpp.obj: CXX_COMPILER__hot100_54_unscanned_Debug D$:/CppProjects/oj/leetcode/hot100/hot100_54.cpp || cmake_object_order_depends_target_hot100_54
   DEP_FILE = CMakeFiles\hot100_54.dir\leetcode\hot100\hot100_54.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CppProjects/oj/head
   OBJECT_DIR = CMakeFiles\hot100_54.dir
   OBJECT_FILE_DIR = CMakeFiles\hot100_54.dir\leetcode\hot100
 
@@ -1537,6 +1582,7 @@ build cmake_object_order_depends_target_hot100_48: phony || CMakeFiles/hot100_48
 build CMakeFiles/hot100_48.dir/leetcode/hot100/hot100_48.cpp.obj: CXX_COMPILER__hot100_48_unscanned_Debug D$:/CppProjects/oj/leetcode/hot100/hot100_48.cpp || cmake_object_order_depends_target_hot100_48
   DEP_FILE = CMakeFiles\hot100_48.dir\leetcode\hot100\hot100_48.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CppProjects/oj/head
   OBJECT_DIR = CMakeFiles\hot100_48.dir
   OBJECT_FILE_DIR = CMakeFiles\hot100_48.dir\leetcode\hot100
 
@@ -1570,6 +1616,7 @@ build cmake_object_order_depends_target_hot100_240: phony || CMakeFiles/hot100_2
 build CMakeFiles/hot100_240.dir/leetcode/hot100/hot100_240.cpp.obj: CXX_COMPILER__hot100_240_unscanned_Debug D$:/CppProjects/oj/leetcode/hot100/hot100_240.cpp || cmake_object_order_depends_target_hot100_240
   DEP_FILE = CMakeFiles\hot100_240.dir\leetcode\hot100\hot100_240.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CppProjects/oj/head
   OBJECT_DIR = CMakeFiles\hot100_240.dir
   OBJECT_FILE_DIR = CMakeFiles\hot100_240.dir\leetcode\hot100
 
@@ -1603,6 +1650,7 @@ build cmake_object_order_depends_target_59_generateMatrix: phony || CMakeFiles/5
 build CMakeFiles/59_generateMatrix.dir/leetcode/59_generateMatrix.cpp.obj: CXX_COMPILER__59_generateMatrix_unscanned_Debug D$:/CppProjects/oj/leetcode/59_generateMatrix.cpp || cmake_object_order_depends_target_59_generateMatrix
   DEP_FILE = CMakeFiles\59_generateMatrix.dir\leetcode\59_generateMatrix.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CppProjects/oj/head
   OBJECT_DIR = CMakeFiles\59_generateMatrix.dir
   OBJECT_FILE_DIR = CMakeFiles\59_generateMatrix.dir\leetcode
 
@@ -1636,6 +1684,7 @@ build cmake_object_order_depends_target_74_searchMatrix: phony || CMakeFiles/74_
 build CMakeFiles/74_searchMatrix.dir/leetcode/74_searchMatrix.cpp.obj: CXX_COMPILER__74_searchMatrix_unscanned_Debug D$:/CppProjects/oj/leetcode/74_searchMatrix.cpp || cmake_object_order_depends_target_74_searchMatrix
   DEP_FILE = CMakeFiles\74_searchMatrix.dir\leetcode\74_searchMatrix.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CppProjects/oj/head
   OBJECT_DIR = CMakeFiles\74_searchMatrix.dir
   OBJECT_FILE_DIR = CMakeFiles\74_searchMatrix.dir\leetcode
 
@@ -1669,6 +1718,7 @@ build cmake_object_order_depends_target_hot100_142: phony || CMakeFiles/hot100_1
 build CMakeFiles/hot100_142.dir/leetcode/hot100/hot100_142.cpp.obj: CXX_COMPILER__hot100_142_unscanned_Debug D$:/CppProjects/oj/leetcode/hot100/hot100_142.cpp || cmake_object_order_depends_target_hot100_142
   DEP_FILE = CMakeFiles\hot100_142.dir\leetcode\hot100\hot100_142.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CppProjects/oj/head
   OBJECT_DIR = CMakeFiles\hot100_142.dir
   OBJECT_FILE_DIR = CMakeFiles\hot100_142.dir\leetcode\hot100
 
@@ -1702,6 +1752,7 @@ build cmake_object_order_depends_target_hot100_2: phony || CMakeFiles/hot100_2.d
 build CMakeFiles/hot100_2.dir/leetcode/hot100/hot100_2.cpp.obj: CXX_COMPILER__hot100_2_unscanned_Debug D$:/CppProjects/oj/leetcode/hot100/hot100_2.cpp || cmake_object_order_depends_target_hot100_2
   DEP_FILE = CMakeFiles\hot100_2.dir\leetcode\hot100\hot100_2.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CppProjects/oj/head
   OBJECT_DIR = CMakeFiles\hot100_2.dir
   OBJECT_FILE_DIR = CMakeFiles\hot100_2.dir\leetcode\hot100
 
@@ -1735,6 +1786,7 @@ build cmake_object_order_depends_target_hot100_19: phony || CMakeFiles/hot100_19
 build CMakeFiles/hot100_19.dir/leetcode/hot100/hot100_19.cpp.obj: CXX_COMPILER__hot100_19_unscanned_Debug D$:/CppProjects/oj/leetcode/hot100/hot100_19.cpp || cmake_object_order_depends_target_hot100_19
   DEP_FILE = CMakeFiles\hot100_19.dir\leetcode\hot100\hot100_19.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CppProjects/oj/head
   OBJECT_DIR = CMakeFiles\hot100_19.dir
   OBJECT_FILE_DIR = CMakeFiles\hot100_19.dir\leetcode\hot100
 
@@ -1768,6 +1820,7 @@ build cmake_object_order_depends_target_hot100_24: phony || CMakeFiles/hot100_24
 build CMakeFiles/hot100_24.dir/leetcode/hot100/hot100_24.cpp.obj: CXX_COMPILER__hot100_24_unscanned_Debug D$:/CppProjects/oj/leetcode/hot100/hot100_24.cpp || cmake_object_order_depends_target_hot100_24
   DEP_FILE = CMakeFiles\hot100_24.dir\leetcode\hot100\hot100_24.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CppProjects/oj/head
   OBJECT_DIR = CMakeFiles\hot100_24.dir
   OBJECT_FILE_DIR = CMakeFiles\hot100_24.dir\leetcode\hot100
 
@@ -1801,6 +1854,7 @@ build cmake_object_order_depends_target_hot100_138: phony || CMakeFiles/hot100_1
 build CMakeFiles/hot100_138.dir/leetcode/hot100/hot100_138.cpp.obj: CXX_COMPILER__hot100_138_unscanned_Debug D$:/CppProjects/oj/leetcode/hot100/hot100_138.cpp || cmake_object_order_depends_target_hot100_138
   DEP_FILE = CMakeFiles\hot100_138.dir\leetcode\hot100\hot100_138.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CppProjects/oj/head
   OBJECT_DIR = CMakeFiles\hot100_138.dir
   OBJECT_FILE_DIR = CMakeFiles\hot100_138.dir\leetcode\hot100
 
@@ -1834,6 +1888,7 @@ build cmake_object_order_depends_target_hot100_148: phony || CMakeFiles/hot100_1
 build CMakeFiles/hot100_148.dir/leetcode/hot100/hot100_148.cpp.obj: CXX_COMPILER__hot100_148_unscanned_Debug D$:/CppProjects/oj/leetcode/hot100/hot100_148.cpp || cmake_object_order_depends_target_hot100_148
   DEP_FILE = CMakeFiles\hot100_148.dir\leetcode\hot100\hot100_148.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CppProjects/oj/head
   OBJECT_DIR = CMakeFiles\hot100_148.dir
   OBJECT_FILE_DIR = CMakeFiles\hot100_148.dir\leetcode\hot100
 
@@ -1867,6 +1922,7 @@ build cmake_object_order_depends_target_912_sortArray: phony || CMakeFiles/912_s
 build CMakeFiles/912_sortArray.dir/leetcode/912_sortArray.cpp.obj: CXX_COMPILER__912_sortArray_unscanned_Debug D$:/CppProjects/oj/leetcode/912_sortArray.cpp || cmake_object_order_depends_target_912_sortArray
   DEP_FILE = CMakeFiles\912_sortArray.dir\leetcode\912_sortArray.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CppProjects/oj/head
   OBJECT_DIR = CMakeFiles\912_sortArray.dir
   OBJECT_FILE_DIR = CMakeFiles\912_sortArray.dir\leetcode
 
@@ -1900,6 +1956,7 @@ build cmake_object_order_depends_target_hot100_102: phony || CMakeFiles/hot100_1
 build CMakeFiles/hot100_102.dir/leetcode/hot100/hot100_102.cpp.obj: CXX_COMPILER__hot100_102_unscanned_Debug D$:/CppProjects/oj/leetcode/hot100/hot100_102.cpp || cmake_object_order_depends_target_hot100_102
   DEP_FILE = CMakeFiles\hot100_102.dir\leetcode\hot100\hot100_102.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CppProjects/oj/head
   OBJECT_DIR = CMakeFiles\hot100_102.dir
   OBJECT_FILE_DIR = CMakeFiles\hot100_102.dir\leetcode\hot100
 
@@ -1933,6 +1990,7 @@ build cmake_object_order_depends_target_hot100_98: phony || CMakeFiles/hot100_98
 build CMakeFiles/hot100_98.dir/leetcode/hot100/hot100_98.cpp.obj: CXX_COMPILER__hot100_98_unscanned_Debug D$:/CppProjects/oj/leetcode/hot100/hot100_98.cpp || cmake_object_order_depends_target_hot100_98
   DEP_FILE = CMakeFiles\hot100_98.dir\leetcode\hot100\hot100_98.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CppProjects/oj/head
   OBJECT_DIR = CMakeFiles\hot100_98.dir
   OBJECT_FILE_DIR = CMakeFiles\hot100_98.dir\leetcode\hot100
 
@@ -1966,6 +2024,7 @@ build cmake_object_order_depends_target_hot100_230: phony || CMakeFiles/hot100_2
 build CMakeFiles/hot100_230.dir/leetcode/hot100/hot100_230.cpp.obj: CXX_COMPILER__hot100_230_unscanned_Debug D$:/CppProjects/oj/leetcode/hot100/hot100_230.cpp || cmake_object_order_depends_target_hot100_230
   DEP_FILE = CMakeFiles\hot100_230.dir\leetcode\hot100\hot100_230.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CppProjects/oj/head
   OBJECT_DIR = CMakeFiles\hot100_230.dir
   OBJECT_FILE_DIR = CMakeFiles\hot100_230.dir\leetcode\hot100
 
@@ -1999,6 +2058,7 @@ build cmake_object_order_depends_target_hot100_199: phony || CMakeFiles/hot100_1
 build CMakeFiles/hot100_199.dir/leetcode/hot100/hot100_199.cpp.obj: CXX_COMPILER__hot100_199_unscanned_Debug D$:/CppProjects/oj/leetcode/hot100/hot100_199.cpp || cmake_object_order_depends_target_hot100_199
   DEP_FILE = CMakeFiles\hot100_199.dir\leetcode\hot100\hot100_199.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CppProjects/oj/head
   OBJECT_DIR = CMakeFiles\hot100_199.dir
   OBJECT_FILE_DIR = CMakeFiles\hot100_199.dir\leetcode\hot100
 
@@ -2032,6 +2092,7 @@ build cmake_object_order_depends_target_hot100_114: phony || CMakeFiles/hot100_1
 build CMakeFiles/hot100_114.dir/leetcode/hot100/hot100_114.cpp.obj: CXX_COMPILER__hot100_114_unscanned_Debug D$:/CppProjects/oj/leetcode/hot100/hot100_114.cpp || cmake_object_order_depends_target_hot100_114
   DEP_FILE = CMakeFiles\hot100_114.dir\leetcode\hot100\hot100_114.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CppProjects/oj/head
   OBJECT_DIR = CMakeFiles\hot100_114.dir
   OBJECT_FILE_DIR = CMakeFiles\hot100_114.dir\leetcode\hot100
 
@@ -2065,6 +2126,7 @@ build cmake_object_order_depends_target_hot100_105: phony || CMakeFiles/hot100_1
 build CMakeFiles/hot100_105.dir/leetcode/hot100/hot100_105.cpp.obj: CXX_COMPILER__hot100_105_unscanned_Debug D$:/CppProjects/oj/leetcode/hot100/hot100_105.cpp || cmake_object_order_depends_target_hot100_105
   DEP_FILE = CMakeFiles\hot100_105.dir\leetcode\hot100\hot100_105.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CppProjects/oj/head
   OBJECT_DIR = CMakeFiles\hot100_105.dir
   OBJECT_FILE_DIR = CMakeFiles\hot100_105.dir\leetcode\hot100
 
@@ -2098,6 +2160,7 @@ build cmake_object_order_depends_target_hot100_437: phony || CMakeFiles/hot100_4
 build CMakeFiles/hot100_437.dir/leetcode/hot100/hot100_437.cpp.obj: CXX_COMPILER__hot100_437_unscanned_Debug D$:/CppProjects/oj/leetcode/hot100/hot100_437.cpp || cmake_object_order_depends_target_hot100_437
   DEP_FILE = CMakeFiles\hot100_437.dir\leetcode\hot100\hot100_437.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CppProjects/oj/head
   OBJECT_DIR = CMakeFiles\hot100_437.dir
   OBJECT_FILE_DIR = CMakeFiles\hot100_437.dir\leetcode\hot100
 
@@ -2131,6 +2194,7 @@ build cmake_object_order_depends_target_hot100_236: phony || CMakeFiles/hot100_2
 build CMakeFiles/hot100_236.dir/leetcode/hot100/hot100_236.cpp.obj: CXX_COMPILER__hot100_236_unscanned_Debug D$:/CppProjects/oj/leetcode/hot100/hot100_236.cpp || cmake_object_order_depends_target_hot100_236
   DEP_FILE = CMakeFiles\hot100_236.dir\leetcode\hot100\hot100_236.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CppProjects/oj/head
   OBJECT_DIR = CMakeFiles\hot100_236.dir
   OBJECT_FILE_DIR = CMakeFiles\hot100_236.dir\leetcode\hot100
 
@@ -2164,6 +2228,7 @@ build cmake_object_order_depends_target_100_isSameTree: phony || CMakeFiles/100_
 build CMakeFiles/100_isSameTree.dir/leetcode/100_isSameTree.cpp.obj: CXX_COMPILER__100_isSameTree_unscanned_Debug D$:/CppProjects/oj/leetcode/100_isSameTree.cpp || cmake_object_order_depends_target_100_isSameTree
   DEP_FILE = CMakeFiles\100_isSameTree.dir\leetcode\100_isSameTree.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CppProjects/oj/head
   OBJECT_DIR = CMakeFiles\100_isSameTree.dir
   OBJECT_FILE_DIR = CMakeFiles\100_isSameTree.dir\leetcode
 
@@ -2197,6 +2262,7 @@ build cmake_object_order_depends_target_99_recoverTree: phony || CMakeFiles/99_r
 build CMakeFiles/99_recoverTree.dir/leetcode/99_recoverTree.cpp.obj: CXX_COMPILER__99_recoverTree_unscanned_Debug D$:/CppProjects/oj/leetcode/99_recoverTree.cpp || cmake_object_order_depends_target_99_recoverTree
   DEP_FILE = CMakeFiles\99_recoverTree.dir\leetcode\99_recoverTree.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CppProjects/oj/head
   OBJECT_DIR = CMakeFiles\99_recoverTree.dir
   OBJECT_FILE_DIR = CMakeFiles\99_recoverTree.dir\leetcode
 
@@ -2230,6 +2296,7 @@ build cmake_object_order_depends_target_110_isBalanced: phony || CMakeFiles/110_
 build CMakeFiles/110_isBalanced.dir/leetcode/110_isBalanced.cpp.obj: CXX_COMPILER__110_isBalanced_unscanned_Debug D$:/CppProjects/oj/leetcode/110_isBalanced.cpp || cmake_object_order_depends_target_110_isBalanced
   DEP_FILE = CMakeFiles\110_isBalanced.dir\leetcode\110_isBalanced.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CppProjects/oj/head
   OBJECT_DIR = CMakeFiles\110_isBalanced.dir
   OBJECT_FILE_DIR = CMakeFiles\110_isBalanced.dir\leetcode
 
@@ -2263,6 +2330,7 @@ build cmake_object_order_depends_target_111_minDepth: phony || CMakeFiles/111_mi
 build CMakeFiles/111_minDepth.dir/leetcode/111_minDepth.cpp.obj: CXX_COMPILER__111_minDepth_unscanned_Debug D$:/CppProjects/oj/leetcode/111_minDepth.cpp || cmake_object_order_depends_target_111_minDepth
   DEP_FILE = CMakeFiles\111_minDepth.dir\leetcode\111_minDepth.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CppProjects/oj/head
   OBJECT_DIR = CMakeFiles\111_minDepth.dir
   OBJECT_FILE_DIR = CMakeFiles\111_minDepth.dir\leetcode
 
@@ -2283,6 +2351,74 @@ build 111_minDepth.exe: CXX_EXECUTABLE_LINKER__111_minDepth_Debug CMakeFiles/111
   TARGET_FILE = 111_minDepth.exe
   TARGET_IMPLIB = lib111_minDepth.dll.a
   TARGET_PDB = 111_minDepth.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 112_hasPathSum
+
+
+#############################################
+# Order-only phony target for 112_hasPathSum
+
+build cmake_object_order_depends_target_112_hasPathSum: phony || CMakeFiles/112_hasPathSum.dir
+
+build CMakeFiles/112_hasPathSum.dir/leetcode/112_hasPathSum.cpp.obj: CXX_COMPILER__112_hasPathSum_unscanned_Debug D$:/CppProjects/oj/leetcode/112_hasPathSum.cpp || cmake_object_order_depends_target_112_hasPathSum
+  DEP_FILE = CMakeFiles\112_hasPathSum.dir\leetcode\112_hasPathSum.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CppProjects/oj/head
+  OBJECT_DIR = CMakeFiles\112_hasPathSum.dir
+  OBJECT_FILE_DIR = CMakeFiles\112_hasPathSum.dir\leetcode
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 112_hasPathSum
+
+
+#############################################
+# Link the executable 112_hasPathSum.exe
+
+build 112_hasPathSum.exe: CXX_EXECUTABLE_LINKER__112_hasPathSum_Debug CMakeFiles/112_hasPathSum.dir/leetcode/112_hasPathSum.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\112_hasPathSum.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 112_hasPathSum.exe
+  TARGET_IMPLIB = lib112_hasPathSum.dll.a
+  TARGET_PDB = 112_hasPathSum.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 113_pathSum
+
+
+#############################################
+# Order-only phony target for 113_pathSum
+
+build cmake_object_order_depends_target_113_pathSum: phony || CMakeFiles/113_pathSum.dir
+
+build CMakeFiles/113_pathSum.dir/leetcode/113_pathSum.cpp.obj: CXX_COMPILER__113_pathSum_unscanned_Debug D$:/CppProjects/oj/leetcode/113_pathSum.cpp || cmake_object_order_depends_target_113_pathSum
+  DEP_FILE = CMakeFiles\113_pathSum.dir\leetcode\113_pathSum.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CppProjects/oj/head
+  OBJECT_DIR = CMakeFiles\113_pathSum.dir
+  OBJECT_FILE_DIR = CMakeFiles\113_pathSum.dir\leetcode
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 113_pathSum
+
+
+#############################################
+# Link the executable 113_pathSum.exe
+
+build 113_pathSum.exe: CXX_EXECUTABLE_LINKER__113_pathSum_Debug CMakeFiles/113_pathSum.dir/leetcode/113_pathSum.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\113_pathSum.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 113_pathSum.exe
+  TARGET_IMPLIB = lib113_pathSum.dll.a
+  TARGET_PDB = 113_pathSum.exe.dbg
 
 
 #############################################
@@ -2315,6 +2451,10 @@ build 100_isSameTree: phony 100_isSameTree.exe
 build 110_isBalanced: phony 110_isBalanced.exe
 
 build 111_minDepth: phony 111_minDepth.exe
+
+build 112_hasPathSum: phony 112_hasPathSum.exe
+
+build 113_pathSum: phony 113_pathSum.exe
 
 build 1413_minStartValue: phony 1413_minStartValue.exe
 
@@ -2454,7 +2594,7 @@ build hot100_98: phony hot100_98.exe
 #############################################
 # Folder: D:/CppProjects/oj/cmake-build-debug
 
-build all: phony hot100_1.exe hot100_283.exe 202_happy_number.exe 26_removeDuplicates.exe hot100_160.exe hot100_206.exe hot100_234.exe hot100_141.exe hot100_21.exe hot100_35.exe 69_happy_number.exe hot100_20.exe 496_nextGreaterElement.exe hot100_94.exe hot100_104.exe hot100_226.exe hot100_101.exe hot100_543.exe hot100_108.exe hot100_121.exe 409_longestPalindrome.exe 455_findContentChildren.exe hot100_70.exe hot100_118.exe hot100_136.exe hot100_169.exe hot100_49.exe hot100_128.exe hot100_3.exe hot100_11.exe hot100_15.exe 27_removeElement.exe hot100_438.exe 219_containsNearbyDuplicate.exe 209_minSubArrayLen.exe 28_strStr.exe hot100_189.exe hot100_560.exe 724_pivotIndex.exe 1413_minStartValue.exe hot100_238.exe hot100_53.exe hot100_56.exe hot100_73.exe hot100_54.exe hot100_48.exe hot100_240.exe 59_generateMatrix.exe 74_searchMatrix.exe hot100_142.exe hot100_2.exe hot100_19.exe hot100_24.exe hot100_138.exe hot100_148.exe 912_sortArray.exe hot100_102.exe hot100_98.exe hot100_230.exe hot100_199.exe hot100_114.exe hot100_105.exe hot100_437.exe hot100_236.exe 100_isSameTree.exe 99_recoverTree.exe 110_isBalanced.exe 111_minDepth.exe
+build all: phony hot100_1.exe hot100_283.exe 202_happy_number.exe 26_removeDuplicates.exe hot100_160.exe hot100_206.exe hot100_234.exe hot100_141.exe hot100_21.exe hot100_35.exe 69_happy_number.exe hot100_20.exe 496_nextGreaterElement.exe hot100_94.exe hot100_104.exe hot100_226.exe hot100_101.exe hot100_543.exe hot100_108.exe hot100_121.exe 409_longestPalindrome.exe 455_findContentChildren.exe hot100_70.exe hot100_118.exe hot100_136.exe hot100_169.exe hot100_49.exe hot100_128.exe hot100_3.exe hot100_11.exe hot100_15.exe 27_removeElement.exe hot100_438.exe 219_containsNearbyDuplicate.exe 209_minSubArrayLen.exe 28_strStr.exe hot100_189.exe hot100_560.exe 724_pivotIndex.exe 1413_minStartValue.exe hot100_238.exe hot100_53.exe hot100_56.exe hot100_73.exe hot100_54.exe hot100_48.exe hot100_240.exe 59_generateMatrix.exe 74_searchMatrix.exe hot100_142.exe hot100_2.exe hot100_19.exe hot100_24.exe hot100_138.exe hot100_148.exe 912_sortArray.exe hot100_102.exe hot100_98.exe hot100_230.exe hot100_199.exe hot100_114.exe hot100_105.exe hot100_437.exe hot100_236.exe 100_isSameTree.exe 99_recoverTree.exe 110_isBalanced.exe 111_minDepth.exe 112_hasPathSum.exe 113_pathSum.exe
 
 # =============================================================================
 # Built-in targets
