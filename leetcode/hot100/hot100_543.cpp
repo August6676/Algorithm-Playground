@@ -1,14 +1,7 @@
 #include <iostream>
-using namespace std;
 
-struct TreeNode {
-    int val;
-    TreeNode* left;
-    TreeNode* right;
-    TreeNode() : val(0),left(nullptr),right(nullptr) {}
-    TreeNode(int x) : val(x),left(nullptr),right(nullptr) {}
-    TreeNode(int x, TreeNode* left,TreeNode* right) : val(x),left(left),right(right) {}
-};
+#include "TreeNode.h"
+using namespace std;
 
 int maxDepth(TreeNode* root,int& ans) {
     // 使用 int& 表示一个整型的引用。引用是一个别名，允许你通过一个变量来访问另一个变量，而不需要创建副本。

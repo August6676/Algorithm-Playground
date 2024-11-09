@@ -1,14 +1,8 @@
 #include <iostream>
+
+#include "TreeNode.h"
 using namespace std;
 
-struct TreeNode {
-    int val;
-    TreeNode *left;
-    TreeNode *right;
-    TreeNode() : val(0), left(nullptr), right(nullptr) {}
-    TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
-    TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
-};
 
 /*
  * 自己做的时候执行了一整遍中序遍历，然后再去排序val再去更改 可以使用两个指针记录的方式简化

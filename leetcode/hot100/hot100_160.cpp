@@ -1,12 +1,9 @@
 #include <iostream>
 #include <unordered_set>
+
+#include "ListNode.h"
 using namespace std;
 
-struct ListNode {
-    int val;
-    ListNode* next;
-    explicit ListNode(int x) : val(x), next(nullptr) {} // explicit关键字用于禁止隐式转换
-};
 
 /***
  * method 1: 双指针法

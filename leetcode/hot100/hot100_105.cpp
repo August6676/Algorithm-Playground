@@ -2,15 +2,7 @@
 #include <unordered_map>
 #include <vector>
 using namespace std;
-
-struct TreeNode {
-    int val;
-    TreeNode* left;
-    TreeNode* right;
-    TreeNode(): val(0),left(nullptr),right(nullptr) {}
-    TreeNode(int x):val(x),left(nullptr),right(nullptr){}
-    TreeNode(int x,TreeNode* left,TreeNode* right): val(x),left(left),right(right) {}
-};
+#include "TreeNode.h"
 /*
  * 两遍AC，也算是使用哈希表做出来了，但是占用空间太多，在这里进行优化
  * 这里的 preorder_index 要按照引用传递

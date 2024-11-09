@@ -1,13 +1,8 @@
 #include <iostream>
 #include <vector>
-using namespace std;
 
-struct TreeNode {
-    int val;
-    TreeNode* left;
-    TreeNode* right;
-    TreeNode(int x): val(x),left(NULL),right(NULL) {}
-};
+#include "TreeNode.h"
+using namespace std;
 
 /*
  * 思路卡在这里了，深度优先遍历寻找路径，用bool来表示找没找到，深度优先遍历还是得练

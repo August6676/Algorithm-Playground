@@ -1,12 +1,9 @@
 #include <unordered_set>
 #include <iostream>
+
+#include "ListNode.h"
 using namespace std;
 
-struct ListNode {
-    int val;
-    ListNode* next;
-    ListNode(int x): val(x),next(nullptr) {}
-};
 
 /*
  *  简单粗暴的哈希表，嗯嗯

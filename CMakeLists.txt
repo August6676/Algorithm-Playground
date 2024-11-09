@@ -105,7 +105,7 @@ add_executable(74_searchMatrix leetcode/74_searchMatrix.cpp)
 
 add_executable(hot100_142 leetcode/hot100/hot100_142.cpp)
 
-add_executable(hot100_2 leetcode/hot100/hot100_2.cpp)
+add_executable(hot100_2 leetcode/hot100/hot100_2.cpp head/ListNode.h)
 
 add_executable(hot100_19 leetcode/hot100/hot100_19.cpp)
 

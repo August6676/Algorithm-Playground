@@ -1,15 +1,10 @@
 #include <iostream>
 #include <vector>
+
+#include "TreeNode.h"
 using namespace std;
 
-struct TreeNode {
-    int val;
-    TreeNode *left;
-    TreeNode *right;
-    TreeNode() : val(0), left(nullptr), right(nullptr) {}
-    TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
-    TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
-};
+
 /*
  * 自己做用了深度优先遍历和一个计算节点深度的函数
  * 但是这样其实消耗内存很大
