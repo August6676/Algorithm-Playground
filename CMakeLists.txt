@@ -144,3 +144,5 @@ add_executable(111_minDepth leetcode/111_minDepth.cpp)
 add_executable(112_hasPathSum leetcode/112_hasPathSum.cpp head/TreeNode.h)
 
 add_executable(113_pathSum leetcode/113_pathSum.cpp head/TreeNode.h)
+
+add_executable(hot100_200 leetcode/hot100/hot100_200.cpp)

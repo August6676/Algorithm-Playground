@@ -7,7 +7,7 @@ using namespace std;
 
 int count = 0;
 /*
- *路径总和Ⅲ
+ * 路径总和Ⅲ
  * 深度优先搜索
  */
 void dfs(TreeNode* root, long long targetSum) {
