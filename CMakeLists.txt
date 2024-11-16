@@ -150,3 +150,5 @@ add_executable(hot100_200 leetcode/hot100/hot100_200.cpp)
 add_executable(hot100_994 leetcode/hot100/hot100_994.cpp)
 
 add_executable(hot100_207 leetcode/hot100/hot100_207.cpp)
+
+add_executable(210_findOrder leetcode/210_findOrder.cpp)
