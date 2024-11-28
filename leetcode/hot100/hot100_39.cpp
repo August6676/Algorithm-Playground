@@ -4,6 +4,7 @@ using namespace std;
 
 /*
  * 回溯法防止重复 往往多加一个index 记录位置
+ * vs leetcode/40_combinationSum2.cpp
  */
 void backtrack(vector<vector<int>>& result,vector<int>& current,vector<int>& candidates,int index,int currentSum,int target) {
     if (currentSum == target) {
