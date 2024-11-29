@@ -101,7 +101,7 @@ add_executable(hot100_240 leetcode/hot100/hot100_240.cpp)
 
 add_executable(59_generateMatrix leetcode/59_generateMatrix.cpp)
 
-add_executable(74_searchMatrix leetcode/74_searchMatrix.cpp)
+add_executable(74_searchMatrix leetcode/hot100/hot100_74.cpp)
 
 add_executable(hot100_142 leetcode/hot100/hot100_142.cpp)
 
@@ -168,3 +168,5 @@ add_executable(hot100_79 leetcode/hot100/hot100_79.cpp)
 add_executable(hot100_131 leetcode/hot100/hot100_131.cpp)
 
 add_executable(40_combinationSum2 leetcode/40_combinationSum2.cpp)
+
+add_executable(hot100_34 leetcode/hot100/hot100_34.cpp)
