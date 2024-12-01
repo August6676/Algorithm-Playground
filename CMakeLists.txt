@@ -172,3 +172,5 @@ add_executable(40_combinationSum2 leetcode/40_combinationSum2.cpp)
 add_executable(hot100_34 leetcode/hot100/hot100_34.cpp)
 
 add_executable(hot100_33 leetcode/hot100/hot100_33.cpp)
+
+add_executable(hot100_153 leetcode/hot100/hot100_153.cpp)
