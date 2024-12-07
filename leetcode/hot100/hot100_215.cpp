@@ -1,11 +1,13 @@
 #include <vector>
 #include <iostream>
 #include <algorithm>
+#include <queue>
 using namespace std;
 
 
 /*
  * 这里使用快速排序，实现找到第k大的元素
+ * 可以使用堆 注意cpp中已经实现最大堆 最小堆 可以拿来调用
  * 记模板
  */
 int partition1(vector<int>& nums, int left, int right) {
@@ -60,8 +62,20 @@ int findKthLargest(vector<int>& nums, int k) {
     return quickSelect1(nums,0,nums.size() - 1,nums.size() - k);
 }
 
+int findKthLargest2(vector<int>& nums, int k) {
+    // 创建一个大小为k的最小堆
+    priority_queue<int,vector<int>,greater<int>> minHeap;
+    for (int num : nums) {
+        minHeap.push(num); // 将当前元素加入堆
+        if (minHeap.size() > k) {
+            minHeap.pop(); // 如果超过k那么删掉，这样最后保留的就是第k大的元素
+        }
+    }
+    return minHeap.top();
+}
+
 int main() {
     vector<int> nums = {3,2,1,5,6,4};
     int k = 2;
-    cout << "第 " << k << " 大的元素是 " << findKthLargest(nums,k);
+    cout << "第 " << k << " 大的元素是 " << findKthLargest2(nums,k);
 }
