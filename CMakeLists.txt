@@ -184,3 +184,5 @@ add_executable(71_simplifyPath leetcode/71_simplifyPath.cpp)
 add_executable(hot100_215 leetcode/hot100/hot100_215.cpp)
 
 add_executable(hot100_347 leetcode/hot100/hot100_347.cpp)
+
+add_executable(264_nthUglyNumber leetcode/264_nthUglyNumber.cpp)
