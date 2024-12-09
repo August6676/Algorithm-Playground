@@ -3134,6 +3134,40 @@ build 264_nthUglyNumber.exe: CXX_EXECUTABLE_LINKER__264_nthUglyNumber_Debug CMak
   TARGET_IMPLIB = lib264_nthUglyNumber.dll.a
   TARGET_PDB = 264_nthUglyNumber.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target hot100_55
+
+
+#############################################
+# Order-only phony target for hot100_55
+
+build cmake_object_order_depends_target_hot100_55: phony || CMakeFiles/hot100_55.dir
+
+build CMakeFiles/hot100_55.dir/leetcode/hot100/hot100_55.cpp.obj: CXX_COMPILER__hot100_55_unscanned_Debug D$:/CppProjects/oj/leetcode/hot100/hot100_55.cpp || cmake_object_order_depends_target_hot100_55
+  DEP_FILE = CMakeFiles\hot100_55.dir\leetcode\hot100\hot100_55.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CppProjects/oj/head
+  OBJECT_DIR = CMakeFiles\hot100_55.dir
+  OBJECT_FILE_DIR = CMakeFiles\hot100_55.dir\leetcode\hot100
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target hot100_55
+
+
+#############################################
+# Link the executable hot100_55.exe
+
+build hot100_55.exe: CXX_EXECUTABLE_LINKER__hot100_55_Debug CMakeFiles/hot100_55.dir/leetcode/hot100/hot100_55.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\hot100_55.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = hot100_55.exe
+  TARGET_IMPLIB = libhot100_55.dll.a
+  TARGET_PDB = hot100_55.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -3322,6 +3356,8 @@ build hot100_54: phony hot100_54.exe
 
 build hot100_543: phony hot100_543.exe
 
+build hot100_55: phony hot100_55.exe
+
 build hot100_56: phony hot100_56.exe
 
 build hot100_560: phony hot100_560.exe
@@ -3350,7 +3386,7 @@ build hot100_994: phony hot100_994.exe
 #############################################
 # Folder: D:/CppProjects/oj/cmake-build-debug
 
-build all: phony hot100_1.exe hot100_283.exe 202_happy_number.exe 26_removeDuplicates.exe hot100_160.exe hot100_206.exe hot100_234.exe hot100_141.exe hot100_21.exe hot100_35.exe 69_happy_number.exe hot100_20.exe 496_nextGreaterElement.exe hot100_94.exe hot100_104.exe hot100_226.exe hot100_101.exe hot100_543.exe hot100_108.exe hot100_121.exe 409_longestPalindrome.exe 455_findContentChildren.exe hot100_70.exe hot100_118.exe hot100_136.exe hot100_169.exe hot100_49.exe hot100_128.exe hot100_3.exe hot100_11.exe hot100_15.exe 27_removeElement.exe hot100_438.exe 219_containsNearbyDuplicate.exe 209_minSubArrayLen.exe 28_strStr.exe hot100_189.exe hot100_560.exe 724_pivotIndex.exe 1413_minStartValue.exe hot100_238.exe hot100_53.exe hot100_56.exe hot100_73.exe hot100_54.exe hot100_48.exe hot100_240.exe 59_generateMatrix.exe 74_searchMatrix.exe hot100_142.exe hot100_2.exe hot100_19.exe hot100_24.exe hot100_138.exe hot100_148.exe 912_sortArray.exe hot100_102.exe hot100_98.exe hot100_230.exe hot100_199.exe hot100_114.exe hot100_105.exe hot100_437.exe hot100_236.exe 100_isSameTree.exe 99_recoverTree.exe 110_isBalanced.exe 111_minDepth.exe 112_hasPathSum.exe 113_pathSum.exe hot100_200.exe hot100_994.exe hot100_207.exe 210_findOrder.exe hot100_46.exe hot100_78.exe hot100_17.exe hot100_39.exe hot100_22.exe hot100_79.exe hot100_131.exe 40_combinationSum2.exe hot100_34.exe hot100_33.exe hot100_153.exe hot100_394.exe hot100_739.exe 71_simplifyPath.exe hot100_215.exe hot100_347.exe 264_nthUglyNumber.exe
+build all: phony hot100_1.exe hot100_283.exe 202_happy_number.exe 26_removeDuplicates.exe hot100_160.exe hot100_206.exe hot100_234.exe hot100_141.exe hot100_21.exe hot100_35.exe 69_happy_number.exe hot100_20.exe 496_nextGreaterElement.exe hot100_94.exe hot100_104.exe hot100_226.exe hot100_101.exe hot100_543.exe hot100_108.exe hot100_121.exe 409_longestPalindrome.exe 455_findContentChildren.exe hot100_70.exe hot100_118.exe hot100_136.exe hot100_169.exe hot100_49.exe hot100_128.exe hot100_3.exe hot100_11.exe hot100_15.exe 27_removeElement.exe hot100_438.exe 219_containsNearbyDuplicate.exe 209_minSubArrayLen.exe 28_strStr.exe hot100_189.exe hot100_560.exe 724_pivotIndex.exe 1413_minStartValue.exe hot100_238.exe hot100_53.exe hot100_56.exe hot100_73.exe hot100_54.exe hot100_48.exe hot100_240.exe 59_generateMatrix.exe 74_searchMatrix.exe hot100_142.exe hot100_2.exe hot100_19.exe hot100_24.exe hot100_138.exe hot100_148.exe 912_sortArray.exe hot100_102.exe hot100_98.exe hot100_230.exe hot100_199.exe hot100_114.exe hot100_105.exe hot100_437.exe hot100_236.exe 100_isSameTree.exe 99_recoverTree.exe 110_isBalanced.exe 111_minDepth.exe 112_hasPathSum.exe 113_pathSum.exe hot100_200.exe hot100_994.exe hot100_207.exe 210_findOrder.exe hot100_46.exe hot100_78.exe hot100_17.exe hot100_39.exe hot100_22.exe hot100_79.exe hot100_131.exe 40_combinationSum2.exe hot100_34.exe hot100_33.exe hot100_153.exe hot100_394.exe hot100_739.exe 71_simplifyPath.exe hot100_215.exe hot100_347.exe 264_nthUglyNumber.exe hot100_55.exe
 
 # =============================================================================
 # Built-in targets
