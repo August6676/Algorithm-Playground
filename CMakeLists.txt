@@ -190,3 +190,9 @@ add_executable(264_nthUglyNumber leetcode/264_nthUglyNumber.cpp)
 add_executable(hot100_55 leetcode/hot100/hot100_55.cpp)
 
 add_executable(hot100_45 leetcode/hot100/hot100_45.cpp)
+
+add_executable(hot100_763 leetcode/hot100/hot100_763.cpp)
+
+add_executable(122_maxProfit leetcode/122_maxProfit.cpp)
+
+add_executable(134_canCompleteCircuit leetcode/134_canCompleteCircuit.cpp)
