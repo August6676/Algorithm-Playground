@@ -196,3 +196,7 @@ add_executable(hot100_763 leetcode/hot100/hot100_763.cpp)
 add_executable(122_maxProfit leetcode/122_maxProfit.cpp)
 
 add_executable(134_canCompleteCircuit leetcode/134_canCompleteCircuit.cpp)
+
+add_executable(179_largestNumber leetcode/179_largestNumber.cpp)
+
+add_executable(hot100_198 leetcode/hot100/hot100_198.cpp)
