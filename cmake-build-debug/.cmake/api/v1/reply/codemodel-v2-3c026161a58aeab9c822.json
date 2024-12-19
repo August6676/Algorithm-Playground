@@ -122,7 +122,8 @@
 						104,
 						105,
 						106,
-						107
+						107,
+						108
 					]
 				}
 			],
@@ -244,7 +245,8 @@
 						104,
 						105,
 						106,
-						107
+						107,
+						108
 					]
 				}
 			],
@@ -948,6 +950,13 @@
 					"id" : "hot100_70::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-hot100_70-Debug-ddb6e2619a2483a3aa3d.json",
 					"name" : "hot100_70",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hot100_72::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hot100_72-Debug-c2eb00c8332ae009c991.json",
+					"name" : "hot100_72",
 					"projectIndex" : 0
 				},
 				{
