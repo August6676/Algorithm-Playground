@@ -230,3 +230,5 @@ add_executable(hot100_75 leetcode/hot100/hot100_75.cpp)
 add_executable(hot100_31 leetcode/hot100/hot100_31.cpp)
 
 add_executable(hot100_287 leetcode/hot100/hot100_287.cpp)
+
+add_executable(hot100_42 leetcode/hot100/hot100_42.cpp)

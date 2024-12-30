@@ -9,6 +9,7 @@ using namespace std;
  * 这里使用快速排序，实现找到第k大的元素
  * 可以使用堆 注意cpp中已经实现最大堆 最小堆 可以拿来调用
  * 记模板
+ * 不要记这个快排模板 时间超限！！
  */
 int partition1(vector<int>& nums, int left, int right) {
     int pivot = nums[right]; // 选择最后一个元素作为基准
