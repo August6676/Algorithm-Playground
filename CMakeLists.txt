@@ -225,6 +225,8 @@ add_executable(hot100_72 leetcode/hot100/hot100_72.cpp)
 
 add_executable(hot100_32 leetcode/hot100/hot100_32.cpp)
 
+add_executable(461_hammingDistance leetcode/461_hammingDistance.cpp)
+
 add_executable(hot100_75 leetcode/hot100/hot100_75.cpp)
 
 add_executable(hot100_31 leetcode/hot100/hot100_31.cpp)
